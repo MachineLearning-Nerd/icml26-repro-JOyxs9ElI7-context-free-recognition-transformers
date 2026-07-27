@@ -1,0 +1,16 @@
+{
+  "paper": "JOyxs9ElI7",
+  "gate": "PASS",
+  "anchored_claims": 6,
+  "passed_claims": 6,
+  "minimum_for_campaign": 5,
+  "source_eprint_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "verifier": "python repro/src/verify.py",
+  "tests": "python -m unittest discover -s repro/tests -v",
+  "scope": "Exact source-statement audit plus finite construction witnesses; no finite execution is represented as a universal theorem proof.",
+  "negative_controls": [
+    "51-leaf left-comb: naïve bottom-up depth 50 exceeds source schedule bound 8",
+    "four malformed postfix strings reject",
+    "general/unambiguous/linear grammar negatives reject"
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "claims": {
+    "C1": {
+      "evidence": "general O(n^6) allocation identity; 24 positive and 24 negative CYK instances",
+      "pass": true
+    },
+    "C2": {
+      "evidence": "O(n^3) edge/intermediary allocation; 144 unambiguous CFG positives plus order control",
+      "pass": true
+    },
+    "C3": {
+      "evidence": "O(n^2) linear allocation; 30 positives and 30 length controls",
+      "pass": true
+    },
+    "C4": {
+      "evidence": "100 postfix formulas agree under independent tree/stack oracles; source logarithmic pebble schedule audited",
+      "pass": true
+    },
+    "C5": {
+      "evidence": "postfix node count equals input token count for all witnesses; 4 malformed inputs rejected",
+      "pass": true
+    },
+    "C6": {
+      "evidence": "exact Table 1 exponent rows regenerated from C1--C3 accounting",
+      "pass": true
+    }
+  },
+  "gate": "PASS",
+  "minimum_for_campaign": 5,
+  "negative_controls": {
+    "malformed_postfix_rejected": 4,
+    "sequential_comb": {
+      "naive_rounds": 50,
+      "passes": true,
+      "source_schedule_bound": 8
+    }
+  },
+  "paper": "JOyxs9ElI7",
+  "passed_claims": 6,
+  "pebble_rows": [
+    {
+      "bound": 3,
+      "naive_rounds": 1,
+      "tokens": 3,
+      "value": true
+    },
+    {
+      "bound": 3,
+      "naive_rounds": 1,
+      "tokens": 3,
+      "value": true
+    },
+    {
+      "bound": 4,
+      "naive_rounds": 2,
+      "tokens": 5,
+      "value": true
+    },
+    {
+      "bound": 4,
+      "naive_rounds": 2,
+      "tokens": 5,
+      "value": true
+    },
+    {
+      "bound": 4,
+      "naive_rounds": 2,
+      "tokens": 7,
+      "value": true
+    },
+    {
+      "bound": 4,
+      "naive_rounds": 3,
+      "tokens": 7,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 3,
+      "tokens": 9,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 4,
+      "tokens": 9,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 3,
+      "tokens": 11,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 5,
+      "tokens": 11,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 3,
+      "tokens": 13,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 6,
+      "tokens": 13,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 3,
+      "tokens": 15,
+      "value": true
+    },
+    {
+      "bound": 5,
+      "naive_rounds": 7,
+      "tokens": 15,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 17,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 8,
+      "tokens": 17,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 19,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 9,
+      "tokens": 19,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 21,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 10,
+      "tokens": 21,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 23,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 11,
+      "tokens": 23,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 25,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 12,
+      "tokens": 25,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 27,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 13,
+      "tokens": 27,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 29,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 14,
+      "tokens": 29,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 4,
+      "tokens": 31,
+      "value": true
+    },
+    {
+      "bound": 6,
+      "naive_rounds": 15,
+      "tokens": 31,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 33,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 16,
+      "tokens": 33,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 35,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 17,
+      "tokens": 35,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 37,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 18,
+      "tokens": 37,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 39,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 19,
+      "tokens": 39,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 41,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 20,
+      "tokens": 41,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 43,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 21,
+      "tokens": 43,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 45,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 22,
+      "tokens": 45,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 47,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 23,
+      "tokens": 47,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 49,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 24,
+      "tokens": 49,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 51,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 25,
+      "tokens": 51,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 53,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 26,
+      "tokens": 53,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 55,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 27,
+      "tokens": 55,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 57,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 28,
+      "tokens": 57,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 59,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 29,
+      "tokens": 59,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 61,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 30,
+      "tokens": 61,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 5,
+      "tokens": 63,
+      "value": true
+    },
+    {
+      "bound": 7,
+      "naive_rounds": 31,
+      "tokens": 63,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 65,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 32,
+      "tokens": 65,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 67,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 33,
+      "tokens": 67,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 69,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 34,
+      "tokens": 69,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 71,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 35,
+      "tokens": 71,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 73,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 36,
+      "tokens": 73,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 75,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 37,
+      "tokens": 75,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 77,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 38,
+      "tokens": 77,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 79,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 39,
+      "tokens": 79,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 81,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 40,
+      "tokens": 81,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 83,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 41,
+      "tokens": 83,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 85,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 42,
+      "tokens": 85,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 87,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 43,
+      "tokens": 87,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 89,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 44,
+      "tokens": 89,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 91,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 45,
+      "tokens": 91,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 93,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 46,
+      "tokens": 93,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 95,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 47,
+      "tokens": 95,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 97,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 48,
+      "tokens": 97,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 99,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 49,
+      "tokens": 99,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 6,
+      "tokens": 101,
+      "value": true
+    },
+    {
+      "bound": 8,
+      "naive_rounds": 50,
+      "tokens": 101,
+      "value": true
+    }
+  ],
+  "resource_rows": {
+    "general": [
+      {
+        "edges": 0,
+        "inner_loops": 0,
+        "intermediaries": 0,
+        "items": 30,
+        "n": 4,
+        "outer_loops": 3,
+        "padding": 27000,
+        "slashed": 900
+      },
+      {
+        "edges": 0,
+        "inner_loops": 0,
+        "intermediaries": 0,
+        "items": 108,
+        "n": 8,
+        "outer_loops": 4,
+        "padding": 1259712,
+        "slashed": 11664
+      },
+      {
+        "edges": 0,
+        "inner_loops": 0,
+        "intermediaries": 0,
+        "items": 408,
+        "n": 16,
+        "outer_loops": 5,
+        "padding": 67917312,
+        "slashed": 166464
+      },
+      {
+        "edges": 0,
+        "inner_loops": 0,
+        "intermediaries": 0,
+        "items": 1584,
+        "n": 32,
+        "outer_loops": 6,
+        "padding": 3974344704,
+        "slashed": 2509056
+      },
+      {
+        "edges": 0,
+        "inner_loops": 0,
+        "intermediaries": 0,
+        "items": 6240,
+        "n": 64,
+        "outer_loops": 7,
+        "padding": 242970624000,
+        "slashed": 38937600
+      }
+    ],
+    "linear": [
+      {
+        "edges": 180,
+        "inner_loops": 2,
+        "intermediaries": 0,
+        "items": 30,
+        "n": 4,
+        "outer_loops": 1,
+        "padding": 210,
+        "slashed": 0
+      },
+      {
+        "edges": 648,
+        "inner_loops": 3,
+        "intermediaries": 0,
+        "items": 108,
+        "n": 8,
+        "outer_loops": 1,
+        "padding": 756,
+        "slashed": 0
+      },
+      {
+        "edges": 2448,
+        "inner_loops": 4,
+        "intermediaries": 0,
+        "items": 408,
+        "n": 16,
+        "outer_loops": 1,
+        "padding": 2856,
+        "slashed": 0
+      },
+      {
+        "edges": 9504,
+        "inner_loops": 5,
+        "intermediaries": 0,
+        "items": 1584,
+        "n": 32,
+        "outer_loops": 1,
+        "padding": 11088,
+        "slashed": 0
+      },
+      {
+        "edges": 37440,
+        "inner_loops": 6,
+        "intermediaries": 0,
+        "items": 6240,
+        "n": 64,
+        "outer_loops": 1,
+        "padding": 43680,
+        "slashed": 0
+      }
+    ],
+    "unambiguous": [
+      {
+        "edges": 720,
+        "inner_loops": 2,
+        "intermediaries": 720,
+        "items": 30,
+        "n": 4,
+        "outer_loops": 2,
+        "padding": 1470,
+        "slashed": 0
+      },
+      {
+        "edges": 5184,
+        "inner_loops": 3,
+        "intermediaries": 5184,
+        "items": 108,
+        "n": 8,
+        "outer_loops": 3,
+        "padding": 10476,
+        "slashed": 0
+      },
+      {
+        "edges": 39168,
+        "inner_loops": 4,
+        "intermediaries": 39168,
+        "items": 408,
+        "n": 16,
+        "outer_loops": 4,
+        "padding": 78744,
+        "slashed": 0
+      },
+      {
+        "edges": 304128,
+        "inner_loops": 5,
+        "intermediaries": 304128,
+        "items": 1584,
+        "n": 32,
+        "outer_loops": 5,
+        "padding": 609840,
+        "slashed": 0
+      },
+      {
+        "edges": 2396160,
+        "inner_loops": 6,
+        "intermediaries": 2396160,
+        "items": 6240,
+        "n": 64,
+        "outer_loops": 6,
+        "padding": 4798560,
+        "slashed": 0
+      }
+    ]
+  },
+  "scope": "source-audited theorem statements plus finite construction witnesses; not a universal proof",
+  "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "table": {
+    "general_cfl": {
+      "loop_exponent": 1,
+      "padding_exponent": 6
+    },
+    "unambiguous_cfl": {
+      "loop_exponent": 2,
+      "padding_exponent": 3
+    },
+    "unambiguous_linear_cfl": {
+      "loop_exponent": 1,
+      "padding_exponent": 2
+    }
+  }
+}
