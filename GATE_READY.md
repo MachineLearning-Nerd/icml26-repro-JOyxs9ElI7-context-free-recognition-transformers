@@ -1,4 +1,4 @@
-# FULL_GATE_READY
+# FULL_GATE_READY: JOyxs9ElI7
 
 Six of six anchored claims pass the local fail-closed gate. See
 `publication_gate.json`, `outputs/verdict.json`, and `docs/RESULTS.md`.

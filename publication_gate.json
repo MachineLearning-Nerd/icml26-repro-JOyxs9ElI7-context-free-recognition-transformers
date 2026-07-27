@@ -1,6 +1,8 @@
 {
   "paper": "JOyxs9ElI7",
   "gate": "PASS",
+  "tests_passed": true,
+  "publication_gate_passed": true,
   "anchored_claims": 6,
   "passed_claims": 6,
   "minimum_for_campaign": 5,
