@@ -14,6 +14,9 @@ Controls target the claimed mechanism and are mandatory:
 | C5 | Shift depth index | wrong argument tree | 38,944 formulas |
 | C5 | Count unary negation as binary | wrong argument tree | 23,936 formulas |
 | C6 | Remove linearity restriction | later marking rounds | three separating grammars |
+| C6 | Change source padding exponent 6 → 5 | proof-kernel rejection | rejected |
+| C6 | Omit Theorem 4.1 dependency | proof-kernel rejection | rejected |
+| C6 | Collapse nested loop exponent 2 → 1 | proof-kernel rejection | rejected |
 
 The raw outputs are linked from each claim page. Tests also mutate validator
 inputs to ensure a vacuous control causes a nonzero failure.

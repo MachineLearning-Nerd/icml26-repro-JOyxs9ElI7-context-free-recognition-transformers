@@ -11,6 +11,7 @@ evidence/code/claim_suites/claim_5_bfvp.py
 evidence/code/claim_suites/claim_6_tradeoff.py
 evidence/code/constructions.py
 evidence/code/proof_certificates.py
+evidence/code/theorem_proof_kernel.py
 evidence/code/verify.py
 evidence/environment/.python-version
 evidence/environment/pyproject.toml
@@ -21,8 +22,10 @@ evidence/raw/claim_3.json
 evidence/raw/claim_4.json
 evidence/raw/claim_5.json
 evidence/raw/claim_6.json
+evidence/raw/formal_run_7115eacb.log
 evidence/raw/formal_run_a5399cdc.log
 evidence/raw/symbolic_certificates.json
+evidence/raw/universal_resource_certificate.json
 evidence/symbolic_derivation.md
 historical-judged-head/PROTECTED_MANIFEST.sha256
 historical-judged-head/README.md

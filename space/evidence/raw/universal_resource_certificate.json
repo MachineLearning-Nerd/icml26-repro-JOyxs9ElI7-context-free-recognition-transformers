@@ -1,0 +1,52 @@
+{
+  "derived_rows": [
+    {
+      "language_class": "general CFL",
+      "loop_exponent": 1,
+      "padding_exponent": 6,
+      "semantic_premise": "Algorithms 1-2 and Lemmas 3.1-3.2 establish recognition semantics",
+      "source_anchor": "main.tex:1158-1318",
+      "theorem": "Theorem 3.1"
+    },
+    {
+      "language_class": "unambiguous CFL",
+      "loop_exponent": 2,
+      "padding_exponent": 3,
+      "semantic_premise": "Fact 4.1 plus the Chytil unique-path marking premise establish semantics",
+      "source_anchor": "main.tex:1494-1643",
+      "theorem": "Theorem 4.1"
+    },
+    {
+      "language_class": "unambiguous linear CFL",
+      "loop_exponent": 1,
+      "padding_exponent": 2,
+      "semantic_premise": "Proposition 4.1 establishes I1=I* for linear CNF grammars",
+      "source_anchor": "main.tex:1646-1668",
+      "theorem": "Theorem 4.2"
+    }
+  ],
+  "negative_controls": {
+    "collapsed_nested_loop": {
+      "reason": "C6 Theorem 4.1 loop exponent mismatch: derived 2, source 1",
+      "rejected": true
+    },
+    "missing_theorem_dependency": {
+      "reason": "C6 requires exactly three proved theorem rows",
+      "rejected": true
+    },
+    "wrong_padding_exponent": {
+      "reason": "C6 Theorem 3.1 padding exponent mismatch: derived 6, source 5",
+      "rejected": true
+    }
+  },
+  "negative_controls_rejected": 3,
+  "proof_rules": {
+    "nested_log_stages": "O(log(n)^a) * O(log(n)^b) = O(log(n)^(a+b))",
+    "polynomial_product": "O(n^a) * O(n^b) = O(n^(a+b))",
+    "table_synthesis": "each source row must match a unique proved theorem dependency"
+  },
+  "quantified_domain": "all integer input lengths n >= 2; fixed grammar constants",
+  "scope": "Universal resource-algebra certificate conditional on the named semantic premises; no finite-n slope fitting is used.",
+  "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "status": "PASS"
+}

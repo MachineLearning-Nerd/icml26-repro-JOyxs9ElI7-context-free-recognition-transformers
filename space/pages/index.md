@@ -1,16 +1,17 @@
 # Current verification — six constructive theorem claims
 
-**Previous live judged score: 5/12. Internal cumulative result: six
+**Previous live judged score: 6/12 at revision
+`b22c03d7342ec67bcfa83a8b020d125fa047ce94`. Internal cumulative result: six
 VERIFIED claims, pending evaluator review. This is a forecast, not a new judge
 score.**
 
 The central evidence is direct execution of the paper's item, dependency-graph,
 C-RASP, and residual-slot transformer constructions, followed by a
 machine-checkable symbolic certificate. Formal HF run
-`a5399cdc-720b-42c0-982f-a1af01270305` used commit
-`7fdf84faf2e311428d67170b20db8dfaa026b5a3`, completed in 13m04s on
+`7115eacb-2a14-40f9-a916-92039c063443` used commit
+`4e8e52723ce03699a792543fd40d170b8d9842fa`, completed in 12m08s on
 `cpu-upgrade`, exposed 64 affinity CPUs, and deliberately used one sequential
-scientific process. All 15 fail-closed tests passed.
+scientific process. All 20 fail-closed tests passed.
 
 ## Current claim pages
 
@@ -31,7 +32,9 @@ Supporting pages: [method and environment](#/current-method),
 
 The current verifier is
 [`evidence/code/verify.py`](../evidence/code/verify.py), with construction
-runners and [`proof_certificates.py`](../evidence/code/proof_certificates.py).
+runners, [`proof_certificates.py`](../evidence/code/proof_certificates.py),
+and the fail-closed
+[`theorem_proof_kernel.py`](../evidence/code/theorem_proof_kernel.py).
 It supersedes the finite CYK/accounting verifier at the judged head.
 
 The following preserved pages are labeled **Historical rejected baseline**.

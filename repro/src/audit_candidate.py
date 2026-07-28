@@ -105,7 +105,7 @@ def discover_from_entrypoint() -> dict[str, object]:
         all(child["title"] == "Historical rejected baseline" for child in historical),
         "historical pages are not labeled exactly",
     )
-    require("Previous live judged score: 5/12" in index, "baseline score missing from entrypoint")
+    require("Previous live judged score: 6/12" in index, "baseline score missing from entrypoint")
     return {
         "start": "README.md",
         "opened_in_order": opened,
@@ -122,10 +122,13 @@ def evidence_audit() -> dict[str, object]:
         "evidence/code/claim4_transformer.py",
         "evidence/code/claim56_suite.py",
         "evidence/code/proof_certificates.py",
+        "evidence/code/theorem_proof_kernel.py",
         "evidence/environment/pyproject.toml",
         "evidence/environment/uv.lock",
         "evidence/raw/formal_run_a5399cdc.log",
+        "evidence/raw/formal_run_7115eacb.log",
         "evidence/raw/symbolic_certificates.json",
+        "evidence/raw/universal_resource_certificate.json",
         "evidence/symbolic_derivation.md",
     ] + [f"evidence/raw/claim_{index}.json" for index in range(1, 7)]
     for relative in required_files:
@@ -135,17 +138,29 @@ def evidence_audit() -> dict[str, object]:
         relative = f"evidence/raw/claim_{index}.json"
         raw[f"C{index}"] = json.loads((CANDIDATE / relative).read_text())
     certificates = json.loads((CANDIDATE / "evidence/raw/symbolic_certificates.json").read_text())
+    universal = json.loads(
+        (CANDIDATE / "evidence/raw/universal_resource_certificate.json").read_text()
+    )
     require(certificates["global_gate"] == "PASS", "symbolic certificate gate is not PASS")
+    require(universal["status"] == "PASS", "universal resource certificate is not PASS")
+    require(universal["negative_controls_rejected"] == 3, "universal mutation controls drift")
+    require(
+        [(row["padding_exponent"], row["loop_exponent"]) for row in universal["derived_rows"]]
+        == [(6, 1), (3, 2), (2, 1)],
+        "universal Table 1 rows drift",
+    )
     for claim in raw:
         require(certificates[claim]["verdict"] == "VERIFIED", f"{claim} certificate is not VERIFIED")
-    log = (CANDIDATE / "evidence/raw/formal_run_a5399cdc.log").read_text()
-    require("Ran 15 tests" in log and "\nOK\n" in log, "formal regression result missing")
+    log = (CANDIDATE / "evidence/raw/formal_run_7115eacb.log").read_text()
+    require("Ran 20 tests" in log and "\nOK\n" in log, "formal regression result missing")
+    require("UNIVERSAL_RESOURCE_PROOF_END" in log, "universal proof output missing")
     require("SYMBOLIC_PROOF_CERTIFICATES_END" in log, "formal certificate output missing")
     return {
         "required_files": required_files,
         "raw_claim_files": len(raw),
         "symbolic_gate": certificates["global_gate"],
-        "formal_tests": 15,
+        "universal_resource_gate": universal["status"],
+        "formal_tests": 20,
     }
 
 

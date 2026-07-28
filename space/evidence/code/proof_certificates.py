@@ -14,6 +14,8 @@ import math
 from fractions import Fraction
 from pathlib import Path
 
+from theorem_proof_kernel import run_universal_resource_certificate
+
 
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / ".openresearch" / "artifacts"
@@ -345,6 +347,7 @@ def postfix_certificate() -> dict[str, object]:
 
 
 def run_proof_certificates() -> dict[str, object]:
+    universal_resources = run_universal_resource_certificate()
     allocations = allocation_certificate()
     attention = attention_certificate()
     propagators = propagator_certificate()
@@ -357,7 +360,12 @@ def run_proof_certificates() -> dict[str, object]:
             "verdict": "VERIFIED",
             "confidence": "MEDIUM",
             "obligations": ["CNF strong induction", "centroid recurrence", "degree-6 schema", "equality attention"],
-            "certificates": {"cnf": cnf, "allocations": allocations, "attention": attention},
+            "certificates": {
+                "cnf": cnf,
+                "allocations": allocations,
+                "attention": attention,
+                "universal_resources": universal_resources["derived_rows"][0],
+            },
         },
         "C2": {
             "verdict": "VERIFIED",
@@ -367,13 +375,22 @@ def run_proof_certificates() -> dict[str, object]:
                 "degree-3 edge/intermediary schema",
                 "logarithmic reachability transformer",
             ],
-            "certificates": {"allocations": allocations, "attention": attention, "propagators": propagators},
+            "certificates": {
+                "allocations": allocations,
+                "attention": attention,
+                "propagators": propagators,
+                "universal_resources": universal_resources["derived_rows"][1],
+            },
         },
         "C3": {
             "verdict": "VERIFIED",
             "confidence": "HIGH",
             "obligations": ["linear CNF rule has an I0 sibling", "I1=I*", "degree-2 edge schema"],
-            "certificates": {"linearity": linearity, "allocations": allocations},
+            "certificates": {
+                "linearity": linearity,
+                "allocations": allocations,
+                "universal_resources": universal_resources["derived_rows"][2],
+            },
         },
         "C4": {
             "verdict": "VERIFIED",
@@ -395,7 +412,11 @@ def run_proof_certificates() -> dict[str, object]:
             "verdict": "VERIFIED",
             "confidence": "HIGH",
             "obligations": ["independently generated class schemas", "exact finite differences", "depth composition"],
-            "certificates": {"allocations": allocations, "linearity": linearity},
+            "certificates": {
+                "allocations": allocations,
+                "linearity": linearity,
+                "universal_resources": universal_resources,
+            },
         },
         "external_primary_premises": {
             "chytil_1991": {
@@ -408,6 +429,11 @@ def run_proof_certificates() -> dict[str, object]:
                 "used_for": "parallel tree contraction / pebbling",
             },
         },
+        "universal_scope_boundary": (
+            "The proof kernel discharges the all-n resource algebra and Table 1 "
+            "composition. Recognition semantics remain conditional on the named "
+            "paper lemmas and are corroborated by the separate complete finite domains."
+        ),
         "global_gate": "PASS",
     }
     for claim in ("C1", "C2", "C3", "C4", "C5", "C6"):

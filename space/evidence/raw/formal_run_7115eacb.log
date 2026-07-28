@@ -1,0 +1,2650 @@
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package perl-modules-5.36.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6695 files and directories currently installed.)
+Preparing to unpack .../00-perl-modules-5.36_5.36.0-7+deb12u3_all.deb ...
+Unpacking perl-modules-5.36 (5.36.0-7+deb12u3) ...
+Selecting previously unselected package libgdbm-compat4:amd64.
+Preparing to unpack .../01-libgdbm-compat4_1.23-3_amd64.deb ...
+Unpacking libgdbm-compat4:amd64 (1.23-3) ...
+Selecting previously unselected package libperl5.36:amd64.
+Preparing to unpack .../02-libperl5.36_5.36.0-7+deb12u3_amd64.deb ...
+Unpacking libperl5.36:amd64 (5.36.0-7+deb12u3) ...
+Selecting previously unselected package perl.
+Preparing to unpack .../03-perl_5.36.0-7+deb12u3_amd64.deb ...
+Unpacking perl (5.36.0-7+deb12u3) ...
+Selecting previously unselected package less.
+Preparing to unpack .../04-less_590-2.1~deb12u2_amd64.deb ...
+Unpacking less (590-2.1~deb12u2) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../05-libbsd0_0.11.7-2_amd64.deb ...
+Unpacking libbsd0:amd64 (0.11.7-2) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../06-libedit2_3.1-20221030-2_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20221030-2) ...
+Selecting previously unselected package libcbor0.8:amd64.
+Preparing to unpack .../07-libcbor0.8_0.8.0-2+b1_amd64.deb ...
+Unpacking libcbor0.8:amd64 (0.8.0-2+b1) ...
+Preparing to unpack .../08-libssl3_3.0.20-1~deb12u2_amd64.deb ...
+Unpacking libssl3:amd64 (3.0.20-1~deb12u2) over (3.0.18-1~deb12u2) ...
+Selecting previously unselected package libfido2-1:amd64.
+Preparing to unpack .../09-libfido2-1_1.12.0-2+b1_amd64.deb ...
+Unpacking libfido2-1:amd64 (1.12.0-2+b1) ...
+Selecting previously unselected package openssh-client.
+Preparing to unpack .../10-openssh-client_1%3a9.2p1-2+deb12u10_amd64.deb ...
+Unpacking openssh-client (1:9.2p1-2+deb12u10) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../11-libbrotli1_1.0.9-2+b6_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2+b6) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../12-libsasl2-modules-db_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../13-libsasl2-2_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../14-libldap-2.5-0_2.5.13+dfsg-5_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.13+dfsg-5) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../15-libnghttp2-14_1.52.0-1+deb12u3_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.52.0-1+deb12u3) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../16-libpsl5_0.21.2-1_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.2-1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../17-librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../18-libssh2-1_1.10.0-3+b1_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.10.0-3+b1) ...
+Selecting previously unselected package libcurl3-gnutls:amd64.
+Preparing to unpack .../19-libcurl3-gnutls_7.88.1-10+deb12u15_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.88.1-10+deb12u15) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../20-libexpat1_2.5.0-1+deb12u2_amd64.deb ...
+Unpacking libexpat1:amd64 (2.5.0-1+deb12u2) ...
+Selecting previously unselected package liberror-perl.
+Preparing to unpack .../21-liberror-perl_0.17029-2_all.deb ...
+Unpacking liberror-perl (0.17029-2) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../22-git-man_1%3a2.39.5-0+deb12u3_all.deb ...
+Unpacking git-man (1:2.39.5-0+deb12u3) ...
+Selecting previously unselected package git.
+Preparing to unpack .../23-git_1%3a2.39.5-0+deb12u3_amd64.deb ...
+Unpacking git (1:2.39.5-0+deb12u3) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../24-libldap-common_2.5.13+dfsg-5_all.deb ...
+Unpacking libldap-common (2.5.13+dfsg-5) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../25-libsasl2-modules_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../26-libxau6_1%3a1.0.9-1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.9-1) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../27-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../28-libxcb1_1.15-1_amd64.deb ...
+Unpacking libxcb1:amd64 (1.15-1) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../29-libx11-data_2%3a1.8.4-2+deb12u2_all.deb ...
+Unpacking libx11-data (2:1.8.4-2+deb12u2) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../30-libx11-6_2%3a1.8.4-2+deb12u2_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.8.4-2+deb12u2) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../31-libxext6_2%3a1.3.4-1+b1_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.4-1+b1) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../32-libxmuu1_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-3) ...
+Preparing to unpack .../33-openssl_3.0.20-1~deb12u2_amd64.deb ...
+Unpacking openssl (3.0.20-1~deb12u2) over (3.0.18-1~deb12u2) ...
+Selecting previously unselected package patch.
+Preparing to unpack .../34-patch_2.7.6-7_amd64.deb ...
+Unpacking patch (2.7.6-7) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../35-publicsuffix_20230209.2326-1_all.deb ...
+Unpacking publicsuffix (20230209.2326-1) ...
+Selecting previously unselected package xauth.
+Preparing to unpack .../36-xauth_1%3a1.1.2-1_amd64.deb ...
+Unpacking xauth (1:1.1.2-1) ...
+Setting up libexpat1:amd64 (2.5.0-1+deb12u2) ...
+Setting up libxau6:amd64 (1:1.0.9-1) ...
+Setting up libpsl5:amd64 (0.21.2-1) ...
+Setting up libcbor0.8:amd64 (0.8.0-2+b1) ...
+Setting up libbrotli1:amd64 (1.0.9-2+b6) ...
+Setting up libssl3:amd64 (3.0.20-1~deb12u2) ...
+Setting up libnghttp2-14:amd64 (1.52.0-1+deb12u3) ...
+Setting up less (590-2.1~deb12u2) ...
+Setting up libldap-common (2.5.13+dfsg-5) ...
+Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
+Setting up perl-modules-5.36 (5.36.0-7+deb12u3) ...
+Setting up libx11-data (2:1.8.4-2+deb12u2) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Setting up patch (2.7.6-7) ...
+Setting up libgdbm-compat4:amd64 (1.23-3) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg-10) ...
+Setting up git-man (1:2.39.5-0+deb12u3) ...
+Setting up libssh2-1:amd64 (1.10.0-3+b1) ...
+Setting up libfido2-1:amd64 (1.12.0-2+b1) ...
+Setting up openssl (3.0.20-1~deb12u2) ...
+Setting up libbsd0:amd64 (0.11.7-2) ...
+Setting up publicsuffix (20230209.2326-1) ...
+Setting up libperl5.36:amd64 (5.36.0-7+deb12u3) ...
+Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
+Setting up libxcb1:amd64 (1.15-1) ...
+Setting up libedit2:amd64 (3.1-20221030-2) ...
+Setting up libsasl2-modules:amd64 (2.1.28+dfsg-10) ...
+Setting up libldap-2.5-0:amd64 (2.5.13+dfsg-5) ...
+Setting up perl (5.36.0-7+deb12u3) ...
+Setting up libx11-6:amd64 (2:1.8.4-2+deb12u2) ...
+Setting up libxmuu1:amd64 (2:1.1.3-3) ...
+Setting up openssh-client (1:9.2p1-2+deb12u10) ...
+Setting up libxext6:amd64 (2:1.3.4-1+b1) ...
+Setting up libcurl3-gnutls:amd64 (7.88.1-10+deb12u15) ...
+Setting up liberror-perl (0.17029-2) ...
+Setting up git (1:2.39.5-0+deb12u3) ...
+Setting up xauth (1:1.1.2-1) ...
+Processing triggers for libc-bin (2.36-9+deb12u13) ...
+Cloning into 'repo'...
+Using CPython 3.12.12 interpreter at: /usr/local/bin/python3.12
+Creating virtual environment at: .venv
+Audited in 0.00ms
+CLAIM4_TRANSFORMER_EVIDENCE_BEGIN
+{
+  "claim": "C4",
+  "exhaustive": {
+    "naive": {
+      "formulas": 93898,
+      "max_steps": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "over_budget": 0,
+      "wrong": 0
+    },
+    "once": {
+      "formulas": 93898,
+      "max_steps": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 2
+      },
+      "over_budget": 0,
+      "wrong": 0
+    },
+    "refresh": {
+      "formulas": 93898,
+      "max_steps": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3
+      },
+      "over_budget": 0,
+      "wrong": 0
+    }
+  },
+  "explanation": "The one-shot Rytter activation reconstruction is semantically correct and stays within the stated schedule. The literal refresh-every-iteration reading is retained as a destructive control and violates the schedule. A later proof-certificate audit is still required for the universal theorem.",
+  "literal_refresh_counterexample_leaf_counts": [
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+  ],
+  "one_shot_budget_violations": [],
+  "paper_eprint_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "primary_mode": "once",
+  "result": "CONSTRUCTION_CORROBORATED",
+  "right_deep_chains": {
+    "naive": {
+      "128": {
+        "budget": 9,
+        "correct": true,
+        "nodes": 255,
+        "steps": 127
+      },
+      "16": {
+        "budget": 6,
+        "correct": true,
+        "nodes": 31,
+        "steps": 15
+      },
+      "256": {
+        "budget": 10,
+        "correct": true,
+        "nodes": 511,
+        "steps": 255
+      },
+      "32": {
+        "budget": 7,
+        "correct": true,
+        "nodes": 63,
+        "steps": 31
+      },
+      "64": {
+        "budget": 8,
+        "correct": true,
+        "nodes": 127,
+        "steps": 63
+      },
+      "8": {
+        "budget": 5,
+        "correct": true,
+        "nodes": 15,
+        "steps": 7
+      }
+    },
+    "once": {
+      "128": {
+        "budget": 9,
+        "correct": true,
+        "nodes": 255,
+        "steps": 7
+      },
+      "16": {
+        "budget": 6,
+        "correct": true,
+        "nodes": 31,
+        "steps": 4
+      },
+      "256": {
+        "budget": 10,
+        "correct": true,
+        "nodes": 511,
+        "steps": 8
+      },
+      "32": {
+        "budget": 7,
+        "correct": true,
+        "nodes": 63,
+        "steps": 5
+      },
+      "64": {
+        "budget": 8,
+        "correct": true,
+        "nodes": 127,
+        "steps": 6
+      },
+      "8": {
+        "budget": 5,
+        "correct": true,
+        "nodes": 15,
+        "steps": 3
+      }
+    },
+    "refresh": {
+      "128": {
+        "budget": 9,
+        "correct": true,
+        "nodes": 255,
+        "steps": 64
+      },
+      "16": {
+        "budget": 6,
+        "correct": true,
+        "nodes": 31,
+        "steps": 8
+      },
+      "256": {
+        "budget": 10,
+        "correct": true,
+        "nodes": 511,
+        "steps": 128
+      },
+      "32": {
+        "budget": 7,
+        "correct": true,
+        "nodes": 63,
+        "steps": 16
+      },
+      "64": {
+        "budget": 8,
+        "correct": true,
+        "nodes": 127,
+        "steps": 32
+      },
+      "8": {
+        "budget": 5,
+        "correct": true,
+        "nodes": 15,
+        "steps": 4
+      }
+    }
+  },
+  "theorem_verdict": "BLOCKED"
+}
+CLAIM4_TRANSFORMER_EVIDENCE_END
+CLAIMS123_TRANSFORMER_EVIDENCE_BEGIN
+{
+  "claims": {
+    "C1": {
+      "destructive_control_delete_rule_S_to_ApBC": {
+        "2": {
+          "mismatches": 0,
+          "strings": 9
+        },
+        "3": {
+          "mismatches": 0,
+          "strings": 27
+        },
+        "4": {
+          "mismatches": 1,
+          "strings": 81
+        },
+        "5": {
+          "mismatches": 2,
+          "strings": 243
+        },
+        "6": {
+          "mismatches": 1,
+          "strings": 729
+        },
+        "7": {
+          "mismatches": 3,
+          "strings": 2187
+        }
+      },
+      "exact_polynomial_degrees": {
+        "alg2_gap_configuration_space": 6,
+        "item_space": 2,
+        "slashed_item_space": 4
+      },
+      "gap_configs_n10_n20": [
+        3630000,
+        159600000
+      ],
+      "native_scale_depth_on_parse_trees": {
+        "102": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 203,
+          "slack": 8
+        },
+        "105": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 209,
+          "slack": 8
+        },
+        "108": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 215,
+          "slack": 8
+        },
+        "111": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 221,
+          "slack": 8
+        },
+        "114": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 227,
+          "slack": 8
+        },
+        "117": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 233,
+          "slack": 8
+        },
+        "12": {
+          "bound_2ceil_log2_2n": 10,
+          "optimal_depth": 4,
+          "parse_tree_nodes": 23,
+          "slack": 6
+        },
+        "120": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 239,
+          "slack": 8
+        },
+        "15": {
+          "bound_2ceil_log2_2n": 10,
+          "optimal_depth": 5,
+          "parse_tree_nodes": 29,
+          "slack": 5
+        },
+        "18": {
+          "bound_2ceil_log2_2n": 12,
+          "optimal_depth": 5,
+          "parse_tree_nodes": 35,
+          "slack": 7
+        },
+        "21": {
+          "bound_2ceil_log2_2n": 12,
+          "optimal_depth": 5,
+          "parse_tree_nodes": 41,
+          "slack": 7
+        },
+        "24": {
+          "bound_2ceil_log2_2n": 12,
+          "optimal_depth": 5,
+          "parse_tree_nodes": 47,
+          "slack": 7
+        },
+        "27": {
+          "bound_2ceil_log2_2n": 12,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 53,
+          "slack": 6
+        },
+        "3": {
+          "bound_2ceil_log2_2n": 6,
+          "optimal_depth": 2,
+          "parse_tree_nodes": 5,
+          "slack": 4
+        },
+        "30": {
+          "bound_2ceil_log2_2n": 12,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 59,
+          "slack": 6
+        },
+        "33": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 65,
+          "slack": 8
+        },
+        "36": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 71,
+          "slack": 8
+        },
+        "39": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 77,
+          "slack": 8
+        },
+        "42": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 83,
+          "slack": 8
+        },
+        "45": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 89,
+          "slack": 8
+        },
+        "48": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 6,
+          "parse_tree_nodes": 95,
+          "slack": 8
+        },
+        "51": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 101,
+          "slack": 7
+        },
+        "54": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 107,
+          "slack": 7
+        },
+        "57": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 113,
+          "slack": 7
+        },
+        "6": {
+          "bound_2ceil_log2_2n": 8,
+          "optimal_depth": 3,
+          "parse_tree_nodes": 11,
+          "slack": 5
+        },
+        "60": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 119,
+          "slack": 7
+        },
+        "63": {
+          "bound_2ceil_log2_2n": 14,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 125,
+          "slack": 7
+        },
+        "66": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 131,
+          "slack": 9
+        },
+        "69": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 137,
+          "slack": 9
+        },
+        "72": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 143,
+          "slack": 9
+        },
+        "75": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 149,
+          "slack": 9
+        },
+        "78": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 155,
+          "slack": 9
+        },
+        "81": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 161,
+          "slack": 9
+        },
+        "84": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 167,
+          "slack": 9
+        },
+        "87": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 173,
+          "slack": 9
+        },
+        "9": {
+          "bound_2ceil_log2_2n": 10,
+          "optimal_depth": 4,
+          "parse_tree_nodes": 17,
+          "slack": 6
+        },
+        "90": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 179,
+          "slack": 9
+        },
+        "93": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 185,
+          "slack": 9
+        },
+        "96": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 7,
+          "parse_tree_nodes": 191,
+          "slack": 9
+        },
+        "99": {
+          "bound_2ceil_log2_2n": 16,
+          "optimal_depth": 8,
+          "parse_tree_nodes": 197,
+          "slack": 8
+        }
+      },
+      "per_length": {
+        "1": {
+          "accepted": 0,
+          "alg2_gap_configurations": 0,
+          "bound_2ceil_log2_2n": 2,
+          "depth_minus_bound": -2,
+          "item_space": 10,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 0,
+          "rounds_to_fixpoint": 1,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 0,
+          "strings": 3
+        },
+        "2": {
+          "accepted": 0,
+          "alg2_gap_configurations": 0,
+          "bound_2ceil_log2_2n": 4,
+          "depth_minus_bound": -4,
+          "item_space": 30,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 0,
+          "rounds_to_fixpoint": 2,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 200,
+          "strings": 9
+        },
+        "3": {
+          "accepted": 1,
+          "alg2_gap_configurations": 4000,
+          "bound_2ceil_log2_2n": 6,
+          "depth_minus_bound": -4,
+          "item_space": 60,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 2,
+          "rounds_to_fixpoint": 3,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 900,
+          "strings": 27
+        },
+        "4": {
+          "accepted": 2,
+          "alg2_gap_configurations": 24000,
+          "bound_2ceil_log2_2n": 6,
+          "depth_minus_bound": -4,
+          "item_space": 100,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 2,
+          "rounds_to_fixpoint": 4,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 2500,
+          "strings": 81
+        },
+        "5": {
+          "accepted": 4,
+          "alg2_gap_configurations": 85000,
+          "bound_2ceil_log2_2n": 8,
+          "depth_minus_bound": -5,
+          "item_space": 150,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 3,
+          "rounds_to_fixpoint": 5,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 5500,
+          "strings": 243
+        },
+        "6": {
+          "accepted": 3,
+          "alg2_gap_configurations": 231000,
+          "bound_2ceil_log2_2n": 8,
+          "depth_minus_bound": -5,
+          "item_space": 210,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 3,
+          "rounds_to_fixpoint": 5,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 10500,
+          "strings": 729
+        },
+        "7": {
+          "accepted": 6,
+          "alg2_gap_configurations": 532000,
+          "bound_2ceil_log2_2n": 8,
+          "depth_minus_bound": -5,
+          "item_space": 280,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 3,
+          "rounds_to_fixpoint": 6,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 18200,
+          "strings": 2187
+        },
+        "8": {
+          "accepted": 6,
+          "alg2_gap_configurations": 1092000,
+          "bound_2ceil_log2_2n": 8,
+          "depth_minus_bound": -5,
+          "item_space": 360,
+          "items_disagreeing_with_CKY": 0,
+          "language_mismatches_vs_oracle": 0,
+          "max_alternation_depth": 3,
+          "rounds_to_fixpoint": 6,
+          "slashed_disagreeing_with_DP": 0,
+          "slashed_space": 29400,
+          "strings": 6561
+        }
+      },
+      "wall_seconds": 12.0
+    },
+    "C2": {
+      "LMAX": 12,
+      "LPATH": 10,
+      "results": {
+        "ambiguous_control": {
+          "graphs_with_a_cycle": 0,
+          "item_realizability_checks": 2195448,
+          "items_mismatched_vs_CKY": 0,
+          "max_directed_paths_between_any_item_pair": 14,
+          "max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 2,
+            "11": 2,
+            "12": 3,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "max_parse_trees_per_string": 42,
+          "padding_alloc_n_edges_degree": 3,
+          "padding_alloc_n_items_degree": 2,
+          "padding_alloc_total_degree": 3,
+          "padding_alloc_total_n8_n16": [
+            816,
+            5984
+          ],
+          "strings_enumerated": 8190,
+          "strings_mismatched_vs_CKY": 0,
+          "strings_path_checked": 2046,
+          "strings_with_multiple_parse_trees": 108
+        },
+        "unambiguous_dyck1": {
+          "graphs_with_a_cycle": 0,
+          "item_realizability_checks": 3293172,
+          "items_mismatched_vs_CKY": 0,
+          "max_directed_paths_between_any_item_pair": 1,
+          "max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "max_parse_trees_per_string": 1,
+          "padding_alloc_n_edges_degree": 3,
+          "padding_alloc_n_items_degree": 2,
+          "padding_alloc_total_degree": 3,
+          "padding_alloc_total_n8_n16": [
+            1392,
+            10336
+          ],
+          "strings_enumerated": 8190,
+          "strings_mismatched_vs_CKY": 0,
+          "strings_path_checked": 2046,
+          "strings_with_multiple_parse_trees": 0
+        }
+      },
+      "wall_seconds": 111.1
+    },
+    "C3": {
+      "LMAX": 14,
+      "results": {
+        "balanced_counting_a^n_b^n": {
+          "edge_alloc_n8_n16": [
+            216,
+            816
+          ],
+          "edge_alloc_polynomial_degree": 2,
+          "item_realizability_checks": 12058616,
+          "items_mismatched_vs_CKY": 0,
+          "linear": true,
+          "max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "max_realised_edges_by_n": {
+            "1": 0,
+            "10": 141,
+            "11": 173,
+            "12": 208,
+            "13": 246,
+            "14": 288,
+            "2": 4,
+            "3": 10,
+            "4": 20,
+            "5": 32,
+            "6": 48,
+            "7": 66,
+            "8": 88,
+            "9": 112
+          },
+          "preterminals": [
+            "A",
+            "B"
+          ],
+          "strings_enumerated": 32766,
+          "strings_mismatched_vs_CKY": 0,
+          "strings_where_I1_differs_from_Istar": 0,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "dyck1_unambiguous_NONLINEAR_control": {
+          "edge_alloc_n8_n16": [
+            1176,
+            9520
+          ],
+          "edge_alloc_polynomial_degree": 3,
+          "item_realizability_checks": 18087924,
+          "items_mismatched_vs_CKY": 0,
+          "linear": false,
+          "max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 3,
+            "14": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "max_realised_edges_by_n": {
+            "1": 0,
+            "10": 248,
+            "11": 318,
+            "12": 399,
+            "13": 492,
+            "14": 602,
+            "2": 6,
+            "3": 16,
+            "4": 31,
+            "5": 51,
+            "6": 75,
+            "7": 105,
+            "8": 145,
+            "9": 192
+          },
+          "preterminals": [
+            "Lb",
+            "Rb"
+          ],
+          "strings_enumerated": 32766,
+          "strings_mismatched_vs_CKY": 0,
+          "strings_where_I1_differs_from_Istar": 12864,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "palindrome_w_wR": {
+          "edge_alloc_n8_n16": [
+            432,
+            1632
+          ],
+          "edge_alloc_polynomial_degree": 2,
+          "item_realizability_checks": 15073270,
+          "items_mismatched_vs_CKY": 0,
+          "linear": true,
+          "max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "max_realised_edges_by_n": {
+            "1": 0,
+            "10": 245,
+            "11": 317,
+            "12": 399,
+            "13": 497,
+            "14": 606,
+            "2": 4,
+            "3": 12,
+            "4": 24,
+            "5": 41,
+            "6": 65,
+            "7": 96,
+            "8": 136,
+            "9": 186
+          },
+          "preterminals": [
+            "A",
+            "B"
+          ],
+          "strings_enumerated": 32766,
+          "strings_mismatched_vs_CKY": 0,
+          "strings_where_I1_differs_from_Istar": 0,
+          "strings_with_multiple_parse_trees": 0
+        }
+      },
+      "wall_seconds": 205.9
+    }
+  },
+  "scope": "Exact paper algorithms and padding schemas, exhaustively checked on declared finite domains. Universal verdicts await symbolic derivation certificates.",
+  "status": {
+    "C1": "CONSTRUCTION_CORROBORATED",
+    "C2": "CONSTRUCTION_CORROBORATED",
+    "C3": "CONSTRUCTION_CORROBORATED"
+  }
+}
+CLAIMS123_TRANSFORMER_EVIDENCE_END
+CLAIMS56_TRANSFORMER_EVIDENCE_BEGIN
+{
+  "claims": {
+    "C5": {
+      "LMAX": 9,
+      "argument_formula_mismatches": 0,
+      "argument_predicate_evaluations": 1615760,
+      "bfvp_formulas_decided": 38962,
+      "bfvp_wrong": 0,
+      "ceil_log2V_plus1_by_length": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 3,
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 5
+      },
+      "control_dindex_shift2_mismatched_formulas": 38944,
+      "control_neg_counted_in_depth_mismatched_formulas": 23936,
+      "control_wf_missing_guard_false_accepts": 299480,
+      "formulas_with_position_node_mismatch": 0,
+      "max_iterations_by_length": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "padding_symbols_used": 0,
+      "pebble_iterations_exceeding_ceil_log2V_plus1": 0,
+      "total_strings_enumerated": 2441405,
+      "wall_seconds": 7.6,
+      "wellformed_formulas": 38962,
+      "wellformed_mismatch_examples": [],
+      "wellformed_predicate_agreements": 2441405,
+      "wellformed_predicate_mismatches": 0
+    },
+    "C6": {
+      "rows": {
+        "balanced_counting": {
+          "LMAX": 14,
+          "allocated_padding_at_n16": {
+            "general_thm31": 2985472,
+            "linear_unambiguous_thm42": 1360,
+            "unambiguous_thm41": 4624
+          },
+          "allocated_padding_exact_degree": {
+            "general_thm31": 6,
+            "linear_unambiguous_thm42": 2,
+            "unambiguous_thm41": 3
+          },
+          "allocated_padding_sequences_n0_n10": {
+            "general_thm31": [
+              0,
+              0,
+              0,
+              256,
+              1536,
+              5440,
+              14784,
+              34048,
+              69888,
+              131712,
+              232320
+            ],
+            "linear_unambiguous_thm42": [
+              0,
+              10,
+              30,
+              60,
+              100,
+              150,
+              210,
+              280,
+              360,
+              450,
+              550
+            ],
+            "unambiguous_thm41": [
+              0,
+              4,
+              18,
+              48,
+              100,
+              180,
+              294,
+              448,
+              648,
+              900,
+              1210
+            ]
+          },
+          "alphabet": "ab",
+          "applicable_theorem": "Thm 4.2 (ULCFL)",
+          "binary_rules": 3,
+          "linear": true,
+          "max_parse_trees_per_string": 1,
+          "measured_max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "measured_max_realised_edges_by_n": {
+            "1": 0,
+            "10": 141,
+            "11": 173,
+            "12": 208,
+            "13": 246,
+            "14": 288,
+            "2": 4,
+            "3": 10,
+            "4": 20,
+            "5": 32,
+            "6": 48,
+            "7": 66,
+            "8": 88,
+            "9": 112
+          },
+          "nonterminals": 4,
+          "reduction_factor_general_over_applicable": 2195.2,
+          "strings_enumerated": 32766,
+          "strings_in_language": 7,
+          "strings_where_I1_differs_from_Istar": 0,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "bfvp_infix": {
+          "LMAX": 6,
+          "allocated_padding_at_n16": {
+            "general_thm31": 16000264,
+            "linear_unambiguous_thm42": 2040,
+            "unambiguous_thm41": 6392
+          },
+          "allocated_padding_exact_degree": {
+            "general_thm31": 6,
+            "linear_unambiguous_thm42": 2,
+            "unambiguous_thm41": 3
+          },
+          "allocated_padding_sequences_n0_n10": {
+            "general_thm31": [
+              0,
+              0,
+              0,
+              1372,
+              8232,
+              29155,
+              79233,
+              182476,
+              374556,
+              705894,
+              1245090
+            ],
+            "linear_unambiguous_thm42": [
+              0,
+              15,
+              45,
+              90,
+              150,
+              225,
+              315,
+              420,
+              540,
+              675,
+              825
+            ],
+            "unambiguous_thm41": [
+              0,
+              7,
+              29,
+              74,
+              150,
+              265,
+              427,
+              644,
+              924,
+              1275,
+              1705
+            ]
+          },
+          "alphabet": "tf&|()",
+          "applicable_theorem": "Thm 4.1 (UCFL)",
+          "binary_rules": 4,
+          "linear": false,
+          "max_parse_trees_per_string": 1,
+          "measured_max_outer_iterations_by_n": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1
+          },
+          "measured_max_realised_edges_by_n": {
+            "1": 0,
+            "2": 3,
+            "3": 8,
+            "4": 15,
+            "5": 25,
+            "6": 38
+          },
+          "nonterminals": 7,
+          "reduction_factor_general_over_applicable": 2503.2,
+          "strings_enumerated": 55986,
+          "strings_in_language": 10,
+          "strings_where_I1_differs_from_Istar": 0,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "bfvp_postfix": {
+          "LMAX": 9,
+          "allocated_padding_at_n16": {
+            "general_thm31": 2985472,
+            "linear_unambiguous_thm42": 1360,
+            "unambiguous_thm41": 4624
+          },
+          "allocated_padding_exact_degree": {
+            "general_thm31": 6,
+            "linear_unambiguous_thm42": 2,
+            "unambiguous_thm41": 3
+          },
+          "allocated_padding_sequences_n0_n10": {
+            "general_thm31": [
+              0,
+              0,
+              0,
+              256,
+              1536,
+              5440,
+              14784,
+              34048,
+              69888,
+              131712,
+              232320
+            ],
+            "linear_unambiguous_thm42": [
+              0,
+              10,
+              30,
+              60,
+              100,
+              150,
+              210,
+              280,
+              360,
+              450,
+              550
+            ],
+            "unambiguous_thm41": [
+              0,
+              4,
+              18,
+              48,
+              100,
+              180,
+              294,
+              448,
+              648,
+              900,
+              1210
+            ]
+          },
+          "alphabet": "tf&|",
+          "applicable_theorem": "Thm 4.1 (UCFL)",
+          "binary_rules": 3,
+          "linear": false,
+          "max_parse_trees_per_string": 1,
+          "measured_max_outer_iterations_by_n": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "measured_max_realised_edges_by_n": {
+            "1": 0,
+            "2": 2,
+            "3": 6,
+            "4": 12,
+            "5": 24,
+            "6": 40,
+            "7": 61,
+            "8": 86,
+            "9": 116
+          },
+          "nonterminals": 4,
+          "reduction_factor_general_over_applicable": 645.6,
+          "strings_enumerated": 349524,
+          "strings_in_language": 7882,
+          "strings_where_I1_differs_from_Istar": 26432,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "dyck_1": {
+          "LMAX": 12,
+          "allocated_padding_at_n16": {
+            "general_thm31": 10075968,
+            "linear_unambiguous_thm42": 2720,
+            "unambiguous_thm41": 10336
+          },
+          "allocated_padding_exact_degree": {
+            "general_thm31": 6,
+            "linear_unambiguous_thm42": 2,
+            "unambiguous_thm41": 3
+          },
+          "allocated_padding_sequences_n0_n10": {
+            "general_thm31": [
+              0,
+              0,
+              0,
+              864,
+              5184,
+              18360,
+              49896,
+              114912,
+              235872,
+              444528,
+              784080
+            ],
+            "linear_unambiguous_thm42": [
+              0,
+              20,
+              60,
+              120,
+              200,
+              300,
+              420,
+              560,
+              720,
+              900,
+              1100
+            ],
+            "unambiguous_thm41": [
+              0,
+              6,
+              32,
+              92,
+              200,
+              370,
+              616,
+              952,
+              1392,
+              1950,
+              2640
+            ]
+          },
+          "alphabet": "()",
+          "applicable_theorem": "Thm 4.1 (UCFL)",
+          "binary_rules": 7,
+          "linear": false,
+          "max_parse_trees_per_string": 1,
+          "measured_max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "measured_max_realised_edges_by_n": {
+            "1": 0,
+            "10": 248,
+            "11": 318,
+            "12": 399,
+            "2": 6,
+            "3": 16,
+            "4": 31,
+            "5": 51,
+            "6": 75,
+            "7": 105,
+            "8": 145,
+            "9": 192
+          },
+          "nonterminals": 6,
+          "reduction_factor_general_over_applicable": 974.8,
+          "strings_enumerated": 8190,
+          "strings_in_language": 196,
+          "strings_where_I1_differs_from_Istar": 2454,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "dyck_2": {
+          "LMAX": 8,
+          "allocated_padding_at_n16": {
+            "general_thm31": 62088488,
+            "linear_unambiguous_thm42": 5304,
+            "unambiguous_thm41": 20536
+          },
+          "allocated_padding_exact_degree": {
+            "general_thm31": 6,
+            "linear_unambiguous_thm42": 2,
+            "unambiguous_thm41": 3
+          },
+          "allocated_padding_sequences_n0_n10": {
+            "general_thm31": [
+              0,
+              0,
+              0,
+              5324,
+              31944,
+              113135,
+              307461,
+              708092,
+              1453452,
+              2739198,
+              4831530
+            ],
+            "linear_unambiguous_thm42": [
+              0,
+              39,
+              117,
+              234,
+              390,
+              585,
+              819,
+              1092,
+              1404,
+              1755,
+              2145
+            ],
+            "unambiguous_thm41": [
+              0,
+              11,
+              61,
+              178,
+              390,
+              725,
+              1211,
+              1876,
+              2748,
+              3855,
+              5225
+            ]
+          },
+          "alphabet": "([)]",
+          "applicable_theorem": "Thm 4.1 (UCFL)",
+          "binary_rules": 14,
+          "linear": false,
+          "max_parse_trees_per_string": 1,
+          "measured_max_outer_iterations_by_n": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2
+          },
+          "measured_max_realised_edges_by_n": {
+            "1": 0,
+            "2": 6,
+            "3": 16,
+            "4": 31,
+            "5": 54,
+            "6": 85,
+            "7": 125,
+            "8": 182
+          },
+          "nonterminals": 11,
+          "reduction_factor_general_over_applicable": 3023.4,
+          "strings_enumerated": 87380,
+          "strings_in_language": 274,
+          "strings_where_I1_differs_from_Istar": 2760,
+          "strings_with_multiple_parse_trees": 0
+        },
+        "palindrome": {
+          "LMAX": 14,
+          "allocated_padding_at_n16": {
+            "general_thm31": 5831000,
+            "linear_unambiguous_thm42": 2312,
+            "unambiguous_thm41": 8840
+          },
+          "allocated_padding_exact_degree": {
+            "general_thm31": 6,
+            "linear_unambiguous_thm42": 2,
+            "unambiguous_thm41": 3
+          },
+          "allocated_padding_sequences_n0_n10": {
+            "general_thm31": [
+              0,
+              0,
+              0,
+              500,
+              3000,
+              10625,
+              28875,
+              66500,
+              136500,
+              257250,
+              453750
+            ],
+            "linear_unambiguous_thm42": [
+              0,
+              17,
+              51,
+              102,
+              170,
+              255,
+              357,
+              476,
+              612,
+              765,
+              935
+            ],
+            "unambiguous_thm41": [
+              0,
+              5,
+              27,
+              78,
+              170,
+              315,
+              525,
+              812,
+              1188,
+              1665,
+              2255
+            ]
+          },
+          "alphabet": "ab",
+          "applicable_theorem": "Thm 4.2 (ULCFL)",
+          "binary_rules": 6,
+          "linear": true,
+          "max_parse_trees_per_string": 1,
+          "measured_max_outer_iterations_by_n": {
+            "1": 0,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "measured_max_realised_edges_by_n": {
+            "1": 0,
+            "10": 245,
+            "11": 317,
+            "12": 399,
+            "13": 497,
+            "14": 606,
+            "2": 4,
+            "3": 12,
+            "4": 24,
+            "5": 41,
+            "6": 65,
+            "7": 96,
+            "8": 136,
+            "9": 186
+          },
+          "nonterminals": 5,
+          "reduction_factor_general_over_applicable": 2522.1,
+          "strings_enumerated": 32766,
+          "strings_in_language": 254,
+          "strings_where_I1_differs_from_Istar": 0,
+          "strings_with_multiple_parse_trees": 0
+        }
+      },
+      "wall_seconds": 367.5
+    }
+  },
+  "execution_environment": {
+    "affinity_cpus": 64,
+    "logical_cpus_visible": 64,
+    "machine": "x86_64",
+    "process_model": "one parent plus one sequential CPython child; no worker pool"
+  },
+  "scope": "Exact C-RASP/BFVP construction and independently checked allocation sequences. Universal theorem verdicts remain separate.",
+  "status": {
+    "C5": "CONSTRUCTION_CORROBORATED",
+    "C6": "TRADEOFF_DERIVED"
+  }
+}
+CLAIMS56_TRANSFORMER_EVIDENCE_END
+UNIVERSAL_RESOURCE_PROOF_BEGIN
+{
+  "derived_rows": [
+    {
+      "language_class": "general CFL",
+      "loop_exponent": 1,
+      "padding_exponent": 6,
+      "semantic_premise": "Algorithms 1-2 and Lemmas 3.1-3.2 establish recognition semantics",
+      "source_anchor": "main.tex:1158-1318",
+      "theorem": "Theorem 3.1"
+    },
+    {
+      "language_class": "unambiguous CFL",
+      "loop_exponent": 2,
+      "padding_exponent": 3,
+      "semantic_premise": "Fact 4.1 plus the Chytil unique-path marking premise establish semantics",
+      "source_anchor": "main.tex:1494-1643",
+      "theorem": "Theorem 4.1"
+    },
+    {
+      "language_class": "unambiguous linear CFL",
+      "loop_exponent": 1,
+      "padding_exponent": 2,
+      "semantic_premise": "Proposition 4.1 establishes I1=I* for linear CNF grammars",
+      "source_anchor": "main.tex:1646-1668",
+      "theorem": "Theorem 4.2"
+    }
+  ],
+  "negative_controls": {
+    "collapsed_nested_loop": {
+      "reason": "C6 Theorem 4.1 loop exponent mismatch: derived 2, source 1",
+      "rejected": true
+    },
+    "missing_theorem_dependency": {
+      "reason": "C6 requires exactly three proved theorem rows",
+      "rejected": true
+    },
+    "wrong_padding_exponent": {
+      "reason": "C6 Theorem 3.1 padding exponent mismatch: derived 6, source 5",
+      "rejected": true
+    }
+  },
+  "negative_controls_rejected": 3,
+  "proof_rules": {
+    "nested_log_stages": "O(log(n)^a) * O(log(n)^b) = O(log(n)^(a+b))",
+    "polynomial_product": "O(n^a) * O(n^b) = O(n^(a+b))",
+    "table_synthesis": "each source row must match a unique proved theorem dependency"
+  },
+  "quantified_domain": "all integer input lengths n >= 2; fixed grammar constants",
+  "scope": "Universal resource-algebra certificate conditional on the named semantic premises; no finite-n slope fitting is used.",
+  "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "status": "PASS"
+}
+UNIVERSAL_RESOURCE_PROOF_END
+SYMBOLIC_PROOF_CERTIFICATES_BEGIN
+{
+  "C1": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "cnf": {
+        "centroid_recurrence": "s_(r+1) <= ceil(s_r/2)+1; at most two recursive levels per round",
+        "derived_depth": "2*ceil(log2(2n))+O(1)",
+        "gap_inequality_checks": 8128,
+        "max_symbolic_audit_span": 128,
+        "proof_principle": "strong induction on span for items and outer-minus-inner span for slashed items",
+        "schema_cases": {
+          "item_gap": "m = inner + outer_slashed with both terms in [1,m-1]",
+          "item_split": "m = left + right with 1 <= left,right < m",
+          "item_terminal": "measure 1, grammar terminal lookup",
+          "slashed_gap": "strict nested gaps partition outer-minus-inner measure",
+          "slashed_split": "the distinguished inner subtree lies in exactly one child",
+          "slashed_terminal_context": "measure 1, one terminal sibling"
+        },
+        "split_inequality_checks": 8128
+      },
+      "universal_resources": {
+        "language_class": "general CFL",
+        "loop_exponent": 1,
+        "padding_exponent": 6,
+        "semantic_premise": "Algorithms 1-2 and Lemmas 3.1-3.2 establish recognition semantics",
+        "source_anchor": "main.tex:1158-1318",
+        "theorem": "Theorem 3.1"
+      }
+    },
+    "confidence": "MEDIUM",
+    "obligations": [
+      "CNF strong induction",
+      "centroid recurrence",
+      "degree-6 schema",
+      "equality attention"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C2": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "propagators": {
+        "associativity_checks": 64,
+        "audited_chain_lengths": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "maximum_chain": 1024,
+        "pointer_doubling_checks": 18440,
+        "propagator_functions": {
+          "F": [
+            false,
+            false
+          ],
+          "ID": [
+            false,
+            true
+          ],
+          "NEG": [
+            true,
+            false
+          ],
+          "T": [
+            true,
+            true
+          ]
+        },
+        "refresh_reset_control_reach": 2,
+        "reverse_composition_control_mismatches": 6,
+        "rounds_for_maximum_chain": 10,
+        "semantic_composition_checks": 32
+      },
+      "universal_resources": {
+        "language_class": "unambiguous CFL",
+        "loop_exponent": 2,
+        "padding_exponent": 3,
+        "semantic_premise": "Fact 4.1 plus the Chytil unique-path marking premise establish semantics",
+        "source_anchor": "main.tex:1494-1643",
+        "theorem": "Theorem 4.1"
+      }
+    },
+    "confidence": "MEDIUM",
+    "obligations": [
+      "Chytil et al. (1991) O(log n) marking and unique-path premises",
+      "degree-3 edge/intermediary schema",
+      "logarithmic reachability transformer"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C3": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "linearity": {
+        "all_allowed_rules_have_I0_sibling": true,
+        "allocated_edge_schema": "item \u00d7 fixed grammar rule \u00d7 left/right orientation",
+        "allowed_cnf_child_types": [
+          [
+            "P",
+            "P"
+          ],
+          [
+            "P",
+            "N"
+          ],
+          [
+            "N",
+            "P"
+          ]
+        ],
+        "consequence": "every dependency edge is present in E1, hence I1 = I*",
+        "derived_padding_degree": 2,
+        "nonlinear_control_child_types": [
+          [
+            "N",
+            "N"
+          ]
+        ],
+        "nonlinear_control_has_I0_sibling": false
+      },
+      "universal_resources": {
+        "language_class": "unambiguous linear CFL",
+        "loop_exponent": 1,
+        "padding_exponent": 2,
+        "semantic_premise": "Proposition 4.1 establishes I1=I* for linear CNF grammars",
+        "source_anchor": "main.tex:1646-1668",
+        "theorem": "Theorem 4.2"
+      }
+    },
+    "confidence": "HIGH",
+    "obligations": [
+      "linear CNF rule has an I0 sibling",
+      "I1=I*",
+      "degree-2 edge schema"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C4": {
+    "certificates": {
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "propagators": {
+        "associativity_checks": 64,
+        "audited_chain_lengths": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "maximum_chain": 1024,
+        "pointer_doubling_checks": 18440,
+        "propagator_functions": {
+          "F": [
+            false,
+            false
+          ],
+          "ID": [
+            false,
+            true
+          ],
+          "NEG": [
+            true,
+            false
+          ],
+          "T": [
+            true,
+            true
+          ]
+        },
+        "refresh_reset_control_reach": 2,
+        "reverse_composition_control_mismatches": 6,
+        "rounds_for_maximum_chain": 10,
+        "semantic_composition_checks": 32
+      }
+    },
+    "confidence": "MEDIUM",
+    "deviation": "Uses a one-shot activation latch. The paper-literal refresh reading is value-correct but not logarithmic on right-deep chains.",
+    "obligations": [
+      "one-shot dependency forest",
+      "associative propagators",
+      "pointer doubling",
+      "equality attention"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C5": {
+    "certificates": {
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "postfix": {
+        "argument_invariant": "previous is unary/right operand; preceding occurrence at equal depth is binary left operand",
+        "node_position_bijection": "each postfix token creates exactly one expression-tree node",
+        "padding_symbols": 0,
+        "token_stack_deltas": {
+          "&": -1,
+          "F": 1,
+          "T": 1,
+          "|": -1,
+          "~": 0
+        },
+        "well_formed_invariant": "every nonempty prefix has depth >= 1 and final depth = 1",
+        "wrong_negation_delta_control_final_depth": 0
+      },
+      "propagators": {
+        "associativity_checks": 64,
+        "audited_chain_lengths": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "maximum_chain": 1024,
+        "pointer_doubling_checks": 18440,
+        "propagator_functions": {
+          "F": [
+            false,
+            false
+          ],
+          "ID": [
+            false,
+            true
+          ],
+          "NEG": [
+            true,
+            false
+          ],
+          "T": [
+            true,
+            true
+          ]
+        },
+        "refresh_reset_control_reach": 2,
+        "reverse_composition_control_mismatches": 6,
+        "rounds_for_maximum_chain": 10,
+        "semantic_composition_checks": 32
+      }
+    },
+    "confidence": "MEDIUM",
+    "obligations": [
+      "C-RASP postfix invariants",
+      "node-position bijection",
+      "Claim 4 pebble certificate"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C6": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "linearity": {
+        "all_allowed_rules_have_I0_sibling": true,
+        "allocated_edge_schema": "item \u00d7 fixed grammar rule \u00d7 left/right orientation",
+        "allowed_cnf_child_types": [
+          [
+            "P",
+            "P"
+          ],
+          [
+            "P",
+            "N"
+          ],
+          [
+            "N",
+            "P"
+          ]
+        ],
+        "consequence": "every dependency edge is present in E1, hence I1 = I*",
+        "derived_padding_degree": 2,
+        "nonlinear_control_child_types": [
+          [
+            "N",
+            "N"
+          ]
+        ],
+        "nonlinear_control_has_I0_sibling": false
+      },
+      "universal_resources": {
+        "derived_rows": [
+          {
+            "language_class": "general CFL",
+            "loop_exponent": 1,
+            "padding_exponent": 6,
+            "semantic_premise": "Algorithms 1-2 and Lemmas 3.1-3.2 establish recognition semantics",
+            "source_anchor": "main.tex:1158-1318",
+            "theorem": "Theorem 3.1"
+          },
+          {
+            "language_class": "unambiguous CFL",
+            "loop_exponent": 2,
+            "padding_exponent": 3,
+            "semantic_premise": "Fact 4.1 plus the Chytil unique-path marking premise establish semantics",
+            "source_anchor": "main.tex:1494-1643",
+            "theorem": "Theorem 4.1"
+          },
+          {
+            "language_class": "unambiguous linear CFL",
+            "loop_exponent": 1,
+            "padding_exponent": 2,
+            "semantic_premise": "Proposition 4.1 establishes I1=I* for linear CNF grammars",
+            "source_anchor": "main.tex:1646-1668",
+            "theorem": "Theorem 4.2"
+          }
+        ],
+        "negative_controls": {
+          "collapsed_nested_loop": {
+            "reason": "C6 Theorem 4.1 loop exponent mismatch: derived 2, source 1",
+            "rejected": true
+          },
+          "missing_theorem_dependency": {
+            "reason": "C6 requires exactly three proved theorem rows",
+            "rejected": true
+          },
+          "wrong_padding_exponent": {
+            "reason": "C6 Theorem 3.1 padding exponent mismatch: derived 6, source 5",
+            "rejected": true
+          }
+        },
+        "negative_controls_rejected": 3,
+        "proof_rules": {
+          "nested_log_stages": "O(log(n)^a) * O(log(n)^b) = O(log(n)^(a+b))",
+          "polynomial_product": "O(n^a) * O(n^b) = O(n^(a+b))",
+          "table_synthesis": "each source row must match a unique proved theorem dependency"
+        },
+        "quantified_domain": "all integer input lengths n >= 2; fixed grammar constants",
+        "scope": "Universal resource-algebra certificate conditional on the named semantic premises; no finite-n slope fitting is used.",
+        "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+        "status": "PASS"
+      }
+    },
+    "confidence": "HIGH",
+    "obligations": [
+      "independently generated class schemas",
+      "exact finite differences",
+      "depth composition"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "external_primary_premises": {
+    "chytil_1991": {
+      "doi": "10.1016/0304-3975(91)90199-C",
+      "title": "On the parallel recognition of unambiguous context-free languages",
+      "used_for": "unique paths and O(log n) outer marking rounds"
+    },
+    "rytter_1985": {
+      "title": "The Complexity of Two-Way Pushdown Automata and Recursive Programs",
+      "used_for": "parallel tree contraction / pebbling"
+    }
+  },
+  "global_gate": "PASS",
+  "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "universal_scope_boundary": "The proof kernel discharges the all-n resource algebra and Table 1 composition. Recognition semantics remain conditional on the named paper lemmas and are corroborated by the separate complete finite domains."
+}
+SYMBOLIC_PROOF_CERTIFICATES_END
+CANDIDATE_AUDIT_BEGIN
+{
+  "blind_traversal": {
+    "current_claim_pages_found": 6,
+    "historical_pages_reachable": 5,
+    "opened_in_order": [
+      "README.md",
+      "pages/index.md",
+      "logbook.json",
+      "pages/current-claim-1/page.md",
+      "pages/current-claim-2/page.md",
+      "pages/current-claim-3/page.md",
+      "pages/current-claim-4/page.md",
+      "pages/current-claim-5/page.md",
+      "pages/current-claim-6/page.md",
+      "pages/current-method/page.md",
+      "pages/current-controls/page.md",
+      "pages/current-limitations/page.md",
+      "pages/visibility-matrix/page.md"
+    ],
+    "start": "README.md"
+  },
+  "evidence": {
+    "formal_tests": 20,
+    "raw_claim_files": 6,
+    "required_files": [
+      "evidence/code/audit_candidate.py",
+      "evidence/code/verify.py",
+      "evidence/code/claim123_suite.py",
+      "evidence/code/claim4_transformer.py",
+      "evidence/code/claim56_suite.py",
+      "evidence/code/proof_certificates.py",
+      "evidence/code/theorem_proof_kernel.py",
+      "evidence/environment/pyproject.toml",
+      "evidence/environment/uv.lock",
+      "evidence/raw/formal_run_a5399cdc.log",
+      "evidence/raw/symbolic_certificates.json",
+      "evidence/raw/universal_resource_certificate.json",
+      "evidence/symbolic_derivation.md",
+      "evidence/raw/claim_1.json",
+      "evidence/raw/claim_2.json",
+      "evidence/raw/claim_3.json",
+      "evidence/raw/claim_4.json",
+      "evidence/raw/claim_5.json",
+      "evidence/raw/claim_6.json"
+    ],
+    "symbolic_gate": "PASS",
+    "universal_resource_gate": "PASS"
+  },
+  "gate": "PASS",
+  "protected_history": {
+    "judged_revision": "36b4fa0b5c1292518f7fb0c6392191e4bc016a0c",
+    "old_file_set_subset": true,
+    "protected_files": 18,
+    "rows": [
+      {
+        "current_sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+        "path": ".gitattributes"
+      },
+      {
+        "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path": ".serve.log"
+      },
+      {
+        "current_sha256": "c2b4641da3570dc9d2244d966a3ceeb92739a9f2eb0d900fcdf2cb8edc17de8c",
+        "disposition": "updated current entrypoint; exact historical copy preserved",
+        "expected_sha256": "0eefd0c43ee40c0c44532dd6bdc087789e294cebb99cdc0114c790fbb0370fc9",
+        "path": "README.md"
+      },
+      {
+        "current_sha256": "d1c28fc0a4e07f2688d013f576cf76ffc422d278d56a52a82989e0b93b3b3964",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "d1c28fc0a4e07f2688d013f576cf76ffc422d278d56a52a82989e0b93b3b3964",
+        "path": "bucket-icon.svg"
+      },
+      {
+        "current_sha256": "878167a2565aa67bc3773e75dbc35262a0ed1f5f63342109a435f38256886428",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "878167a2565aa67bc3773e75dbc35262a0ed1f5f63342109a435f38256886428",
+        "path": "index.html"
+      },
+      {
+        "current_sha256": "64e1de4358c79ec0d5f2697c56f98258c025e992c94ad7b3b7801739222ca41d",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "64e1de4358c79ec0d5f2697c56f98258c025e992c94ad7b3b7801739222ca41d",
+        "path": "logbook.css"
+      },
+      {
+        "current_sha256": "69d73869184f936613668569980f31984be65229e77c4df4ba9604d3de70c02b",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "69d73869184f936613668569980f31984be65229e77c4df4ba9604d3de70c02b",
+        "path": "logbook.js"
+      },
+      {
+        "current_sha256": "626352dcebc168e4411fde98dc32fd877e783372c497bd83d697df056e2c0ae5",
+        "disposition": "updated current entrypoint; exact historical copy preserved",
+        "expected_sha256": "7e14772f0923dd9ce42be0adcb2db0904a512085e919974488bd04b5f14d3bcd",
+        "path": "logbook.json"
+      },
+      {
+        "current_sha256": "2d3480c91bb60e7ef4ec4112b4e9d07cf8dfd660ce464423a499bbc421b78c1b",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "2d3480c91bb60e7ef4ec4112b4e9d07cf8dfd660ce464423a499bbc421b78c1b",
+        "path": "pages/claim-verification/page.md"
+      },
+      {
+        "current_sha256": "1805dd3cd5b555341a03ba6d02ce0516515d61bf5470e3daacf0b2dcfa806732",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "1805dd3cd5b555341a03ba6d02ce0516515d61bf5470e3daacf0b2dcfa806732",
+        "path": "pages/conclusion/page.md"
+      },
+      {
+        "current_sha256": "5f83c03155964b600a31cef4a9dc74675384e7c7b971f00e95f7082686e6080a",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "5f83c03155964b600a31cef4a9dc74675384e7c7b971f00e95f7082686e6080a",
+        "path": "pages/independent-tests/page.md"
+      },
+      {
+        "current_sha256": "b17b05958b5a3e215f7251202ab0dbc574a128e0e056545cdda0893960b26846",
+        "disposition": "updated current entrypoint; exact historical copy preserved",
+        "expected_sha256": "1a84a2f256c1d5f939000c6f4f64d0661a439c5f4190d97155499680e3b73fa9",
+        "path": "pages/index.md"
+      },
+      {
+        "current_sha256": "d0f9cd33550a8a4cbf606d1fff6549255a550b9180d8d55bfa796c105a4236e0",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "d0f9cd33550a8a4cbf606d1fff6549255a550b9180d8d55bfa796c105a4236e0",
+        "path": "pages/methods/page.md"
+      },
+      {
+        "current_sha256": "5cdd58693ac49af1d0549176b753813bc7c74110d7c36477a6dc7854c582083e",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "5cdd58693ac49af1d0549176b753813bc7c74110d7c36477a6dc7854c582083e",
+        "path": "pages/negative-controls/page.md"
+      },
+      {
+        "current_sha256": "789bfd541c9f06658ac410d968e9c39fa8c63a48a08643b36071b984c699a9f4",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "789bfd541c9f06658ac410d968e9c39fa8c63a48a08643b36071b984c699a9f4",
+        "path": "style.css"
+      },
+      {
+        "current_sha256": "a6eb72253c0128ce79b526a86b7943eed37beec186b5f57ff6c1701d0e9ff596",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "a6eb72253c0128ce79b526a86b7943eed37beec186b5f57ff6c1701d0e9ff596",
+        "path": "trackio-logo-light.png"
+      },
+      {
+        "current_sha256": "3e3792061d4d095759da30d7cfe7f14b621901793cd4d677b61b2896f5bf472b",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "3e3792061d4d095759da30d7cfe7f14b621901793cd4d677b61b2896f5bf472b",
+        "path": "trackio-logo.png"
+      },
+      {
+        "current_sha256": "71da94795855710d214801eb9b9b7b8898e9a8757abac0e22966a0531bbb2f4f",
+        "disposition": "exact path and hash preserved",
+        "expected_sha256": "71da94795855710d214801eb9b9b7b8898e9a8757abac0e22966a0531bbb2f4f",
+        "path": "trackio-wordmark-dark.png"
+      }
+    ]
+  },
+  "secrets": {
+    "findings": [],
+    "text_files_scanned": 56
+  },
+  "upload": {
+    "all_hashes_match": true,
+    "text_paths": 44
+  }
+}
+CANDIDATE_AUDIT_END
+PASS: 6/6 anchored claims
+test_repository_layout_selects_nested_candidate (test_candidate_audit.CandidateAuditPortabilityTests.test_repository_layout_selects_nested_candidate) ... ok
+test_space_layout_selects_download_root (test_candidate_audit.CandidateAuditPortabilityTests.test_space_layout_selects_download_root) ... ok
+test_claim1_rejects_vacuous_control (test_claim123_suite.Claim123ValidatorTests.test_claim1_rejects_vacuous_control) ... ok
+test_claim2_rejects_nonseparating_ambiguity_control (test_claim123_suite.Claim123ValidatorTests.test_claim2_rejects_nonseparating_ambiguity_control) ... ok
+test_claim3_rejects_nonbreaking_nonlinear_control (test_claim123_suite.Claim123ValidatorTests.test_claim3_rejects_nonbreaking_nonlinear_control) ... ok
+test_literal_refresh_is_a_destructive_schedule_control (test_claim4_transformer.Claim4TransformerTests.test_literal_refresh_is_a_destructive_schedule_control) ... ok
+test_one_shot_matches_independent_oracle_within_budget (test_claim4_transformer.Claim4TransformerTests.test_one_shot_matches_independent_oracle_within_budget) ... ok
+test_claim5_rejects_vacuous_control (test_claim56_suite.Claim56ValidatorTests.test_claim5_rejects_vacuous_control) ... ok
+test_exact_finite_difference_degrees (test_claim56_suite.Claim56ValidatorTests.test_exact_finite_difference_degrees) ... ok
+test_general_cfg_oracle (test_constructions.ConstructionTests.test_general_cfg_oracle) ... ok
+test_malformed_postfix_rejected (test_constructions.ConstructionTests.test_malformed_postfix_rejected) ... ok
+test_postfix_oracles_agree (test_constructions.ConstructionTests.test_postfix_oracles_agree) ... ok
+test_sequential_control_is_not_parallel_bound (test_constructions.ConstructionTests.test_sequential_control_is_not_parallel_bound) ... ok
+test_attention_literal_and_repaired_normalization (test_proof_certificates.ProofCertificateTests.test_attention_literal_and_repaired_normalization) ... ok
+test_linearity_and_postfix_controls (test_proof_certificates.ProofCertificateTests.test_linearity_and_postfix_controls) ... ok
+test_missing_dependency_fails_closed (test_proof_certificates.ProofCertificateTests.test_missing_dependency_fails_closed) ... ok
+test_propagator_control_and_log_reach (test_proof_certificates.ProofCertificateTests.test_propagator_control_and_log_reach) ... ok
+test_resource_degrees_are_not_interchangeable (test_proof_certificates.ProofCertificateTests.test_resource_degrees_are_not_interchangeable) ... ok
+test_table_is_synthesized_from_three_theorem_rows (test_proof_certificates.ProofCertificateTests.test_table_is_synthesized_from_three_theorem_rows) ... ok
+test_table_mutations_are_rejected (test_proof_certificates.ProofCertificateTests.test_table_mutations_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.020s
+
+OK

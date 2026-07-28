@@ -10,11 +10,12 @@ without repository or dashboard knowledge.
 | C3 | [C3](#/current-claim-3) | yes | yes | [JSON](../../evidence/raw/claim_3.json) | CKY/linearity + symbolic | non-linear unambiguous | yes | VERIFIED |
 | C4 | [C4](#/current-claim-4) | yes | yes | [JSON](../../evidence/raw/claim_4.json) | oracle + pointer certificate | refresh/naive/query | yes | VERIFIED |
 | C5 | [C5](#/current-claim-5) | yes | yes | [JSON](../../evidence/raw/claim_5.json) | stack/tree + symbolic | three C-RASP mutations | yes | VERIFIED |
-| C6 | [C6](#/current-claim-6) | yes | yes | [JSON](../../evidence/raw/claim_6.json) | independent exact differences | remove linearity | yes | VERIFIED |
+| C6 | [C6](#/current-claim-6) | yes | yes | [finite](../../evidence/raw/claim_6.json) + [universal](../../evidence/raw/universal_resource_certificate.json) | proof kernel + exact differences | 3 proof mutations + remove linearity | yes | VERIFIED |
 
 All rows expose source quantifiers, assumptions, exact fixed command and
 environment, raw numbers, controls, limitations, Git SHA, seeds, CPU/runtime,
 and a verifier that exits nonzero. The shared
 [symbolic certificate](../../evidence/raw/symbolic_certificates.json) and
-[formal log](../../evidence/raw/formal_run_a5399cdc.log) are directly
+[universal resource certificate](../../evidence/raw/universal_resource_certificate.json) and
+[current formal log](../../evidence/raw/formal_run_7115eacb.log) are directly
 downloadable.

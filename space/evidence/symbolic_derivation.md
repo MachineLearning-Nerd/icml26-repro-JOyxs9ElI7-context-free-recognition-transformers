@@ -72,14 +72,24 @@ formula `T~` and is the symbolic control.
 
 ## Claim 6
 
-The table is regenerated from the three construction schemas, not copied:
-degree 6 / log exponent 1, degree 3 / log exponent 2, and degree 2 / log
-exponent 1. Exact finite differences independently check every degree.
+The primary verifier no longer compares identical dictionaries. A separate
+proof kernel derives the three theorem rows by applying universal big-O rules:
+polynomial allocation factors add degrees, and nested logarithmic stages add
+log exponents. Table synthesis accepts a row only if its class, padding
+exponent, loop exponent, and unique theorem dependency agree with the pinned
+source contract. It derives 6/1, 3/2, and 2/1 for all `n >= 2`.
+
+Three mutations are required to fail: general padding exponent 5, a missing
+Theorem 4.1 dependency, and a collapsed Theorem 4.1 loop exponent. Exact
+finite differences over generated sequences remain a separate corroborating
+checker, not the universal proof.
 
 ## Scope
 
 This is a proof reconstruction for the paper's idealized log-precision
-hard-attention model, not a trained floating-point network. Claims 2 and 4 use
-the same explicitly named primary algorithmic premises as the paper. The
-paper-literal activation refresh and hash normalization discrepancies are
-preserved as controls and deviations rather than hidden.
+hard-attention model, not a trained floating-point network. The universal
+resource proof is conditional on the recognition-semantic lemmas named in its
+certificate. Claims 2 and 4 use the same explicitly named primary algorithmic
+premises as the paper. The paper-literal activation refresh and hash
+normalization discrepancies are preserved as controls and deviations rather
+than hidden.

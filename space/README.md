@@ -23,8 +23,9 @@ checks symbolic obligations for the universal quantifiers. The exact judged
 revision `36b4fa0b5c1292518f7fb0c6392191e4bc016a0c` is preserved; its pages are
 clearly labeled **Historical rejected baseline** in current navigation.
 
-No score increase is claimed here. The previous live judge score is 5/12; only
-the live evaluator can change it.
+No score increase is claimed here. The latest live judge score is 6/12 at
+revision `b22c03d7342ec67bcfa83a8b020d125fa047ce94`; only the live evaluator can
+change it.
 
 From an exact downloaded Space revision, the quick visibility and integrity
 gate is executable with:

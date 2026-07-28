@@ -17,6 +17,13 @@ from proof_certificates import (  # noqa: E402
     postfix_certificate,
     propagator_certificate,
 )
+from theorem_proof_kernel import (  # noqa: E402
+    ProofError,
+    TABLE1_SOURCE_CONTRACT,
+    derive_theorem_rows,
+    mutation_controls,
+    verify_table_contract,
+)
 
 
 class ProofCertificateTests(unittest.TestCase):
@@ -38,6 +45,24 @@ class ProofCertificateTests(unittest.TestCase):
     def test_linearity_and_postfix_controls(self) -> None:
         self.assertFalse(linearity_certificate()["nonlinear_control_has_I0_sibling"])
         self.assertNotEqual(postfix_certificate()["wrong_negation_delta_control_final_depth"], 1)
+
+    def test_table_is_synthesized_from_three_theorem_rows(self) -> None:
+        certificate = verify_table_contract()
+        self.assertEqual(certificate["status"], "PASS")
+        self.assertEqual(
+            [(row["padding_exponent"], row["loop_exponent"]) for row in certificate["derived_rows"]],
+            [(6, 1), (3, 2), (2, 1)],
+        )
+
+    def test_table_mutations_are_rejected(self) -> None:
+        controls = mutation_controls()
+        self.assertEqual(len(controls), 3)
+        self.assertTrue(all(control["rejected"] for control in controls.values()))
+
+    def test_missing_dependency_fails_closed(self) -> None:
+        incomplete = tuple(row for row in derive_theorem_rows() if row.theorem != "Theorem 4.2")
+        with self.assertRaises(ProofError):
+            verify_table_contract(TABLE1_SOURCE_CONTRACT, incomplete)
 
 
 if __name__ == "__main__":

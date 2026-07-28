@@ -27,7 +27,8 @@ declared entrypoint and navigation. It records every file opened in the
 - all 18 judged paths still exist, with exact hashes except the three current
   entrypoints whose exact old versions are archived;
 - the six raw JSON files and symbolic certificate parse and agree;
-- 15 regression tests are visible in the formal log;
+- 20 regression tests and the universal proof/mutation block are visible in
+  the current formal log;
 - the text upload allowlist and every SHA-256 agree;
 - no token or private-key pattern is found.
 

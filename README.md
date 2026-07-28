@@ -3,16 +3,18 @@
 [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/blob/master/notebooks/context_free_transformers_tutorial.py)
 
 This CPU-only campaign tests all six theoretical claims anchored to
-arXiv:2601.01754. The previous live logbook earned **5/12** because it checked
-CYK and allocation proxies without executing the paper's transformer
-constructions. The cumulative replacement executes the item, dependency-graph,
-C-RASP, and residual-slot hard-attention constructions, then checks symbolic
-proof obligations for their universal quantifiers.
+arXiv:2601.01754. The latest live judge score is **6/12** at Space revision
+`b22c03d7342ec67bcfa83a8b020d125fa047ce94`: every claim received toy credit,
+and the judge specifically found the primary Claim 6 check vacuous. The
+cumulative replacement executes the item, dependency-graph, C-RASP, and
+residual-slot hard-attention constructions. The surgical follow-up replaces
+that C6 self-comparison with a universal resource proof kernel.
 
-Assessment: **six internal VERIFIED verdicts** (C1/C2/C4/C5 MEDIUM confidence;
-C3/C6 HIGH), pending the live judge. Conservative projected range: **9–12/12**;
-best-supported possible score: **12/12, forecast only**. No score increase is
-claimed before evaluation.
+Assessment: **six internal VERIFIED verdicts**, pending the live judge.
+Conservative projected range after the surgical update: **6–7/12**;
+best-supported possible score: **7/12, forecast only**. Claims 1–5 still lack
+a complete machine-checked proof of their universal transformer semantics, so
+more finite sweeps are not forecast to improve them.
 
 | Paper claim | Paper result | Observed evidence | Assessment |
 | --- | --- | --- | --- |
@@ -21,7 +23,7 @@ claimed before evaluation.
 | C3 linear unambiguous | `O(log n)`, `O(n^2)` | `I1=I*` on two grammars; control 12,864 failures; degree 2 | VERIFIED · HIGH |
 | C4 Boolean pebbling | `O(log n)` | 8 loops on 511 nodes vs budget 10; 18,440 symbolic pointer checks | VERIFIED · MEDIUM |
 | C5 BFVP | zero padding, `O(log n)` | 2,441,405 strings; zero predicate/tree/truth/padding failures | VERIFIED · MEDIUM |
-| C6 Table 1 | degrees 6/3/2, depth exponents 1/2/1 | independently generated sequences and exact finite differences | VERIFIED · HIGH |
+| C6 Table 1 | degrees 6/3/2, depth exponents 1/2/1 | universal theorem-row synthesis; three mutations rejected; independent finite differences retained | VERIFIED · MEDIUM |
 
 Substitutions and scope: no GPU or neural training was used. The paper supplies
 a constructive idealized hard-attention model, so the reproduction uses exact
@@ -33,6 +35,7 @@ right-deep trees.
 
 Read the [illustrated technical report](reports/context-free-transformers/report.md),
 the [release and visibility audit](reports/context-free-transformers/release-report.md),
+the [surgical Claim 6 report](reports/context-free-transformers/c6-surgical-report.md),
 or the [self-contained marimo tutorial](notebooks/context_free_transformers_tutorial.py).
 The exact evaluator-facing publication is mirrored under
 [`space/`](space/README.md), including its payload manifest.
@@ -53,6 +56,7 @@ The exact command on every formal node was:
 | [`orx/symbolic-theorem-certificates-and-evaluator-visi`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/symbolic-theorem-certificates-and-evaluator-visi) | Universal proof certificates | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Six VERIFIED internal verdicts; 15 tests pass | HF cpu-upgrade, 13m04s |
 | [`orx/evaluator-visible-release-candidate-and-blind-au`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/evaluator-visible-release-candidate-and-blind-au) | Canonical pages, blind audit, release gates | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Cumulative candidate and protected-history gate | HF cpu-upgrade |
 | [`orx/space-root-verifier-portability-hotfix`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/space-root-verifier-portability-hotfix) | Execute the audit from an exact Space download | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Dual-root resolver and portability regressions | HF cpu-upgrade |
+| [`orx/non-vacuous-c6-and-universal-proof-kernel`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/non-vacuous-c6-and-universal-proof-kernel) | Replace the primary C6 self-comparison with universal theorem-row synthesis | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | 3/3 proof mutations rejected; 20/20 tests pass | HF cpu-upgrade, 12m08s |
 
 ## Run locally
 
