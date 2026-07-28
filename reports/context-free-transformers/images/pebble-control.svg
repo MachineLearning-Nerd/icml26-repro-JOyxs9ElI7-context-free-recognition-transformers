@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610" role="img" aria-labelledby="title desc">
+  <title id="title">Pebble schedule on a right-deep 511-node Boolean tree</title>
+  <desc id="desc">The one-shot dependency-latching construction takes eight loops within a budget of ten, while literal refresh takes 128 loops and naive bottom-up evaluation takes 255.</desc>
+  <rect width="1120" height="610" rx="28" fill="#0f172a"/>
+  <text x="64" y="70" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="700">The activation latch is the mechanism, not a cosmetic detail</text>
+  <text x="64" y="108" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="19">Right-deep Boolean tree · 256 leaves · 511 nodes · logarithmic budget = 10</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="64" y="195" fill="#cbd5e1" font-size="20">One-shot dependency latch</text>
+    <rect x="365" y="166" width="25" height="44" rx="7" fill="#22c55e"/>
+    <text x="404" y="195" fill="#22c55e" font-size="20" font-weight="700">8 loops · PASS</text>
+    <text x="64" y="300" fill="#cbd5e1" font-size="20">Literal refresh each iteration</text>
+    <rect x="365" y="271" width="400" height="44" rx="7" fill="#f59e0b"/>
+    <text x="782" y="300" fill="#fbbf24" font-size="20" font-weight="700">128 loops · CONTROL FAILS</text>
+    <text x="64" y="405" fill="#cbd5e1" font-size="20">Naive bottom-up evaluation</text>
+    <rect x="365" y="376" width="797" height="44" rx="7" fill="#ef4444" transform="scale(.85 1)"/>
+    <text x="1042" y="405" fill="#fff7ed" font-size="20" font-weight="700" text-anchor="end">255 loops · CONTROL FAILS</text>
+    <line x1="396" y1="145" x2="396" y2="455" stroke="#38bdf8" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="396" y="486" fill="#38bdf8" font-size="17" text-anchor="middle">budget 10</text>
+  </g>
+  <rect x="64" y="518" width="992" height="48" rx="12" fill="#1e293b"/>
+  <text x="86" y="548" fill="#e2e8f0" font-family="Inter,Arial,sans-serif" font-size="18">18,440 symbolic pointer-doubling checks passed through 1,024-node chains; reversed composition is a destructive control.</text>
+</svg>

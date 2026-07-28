@@ -1,0 +1,173 @@
+{
+  "claim": "C4",
+  "exhaustive": {
+    "naive": {
+      "formulas": 93898,
+      "max_steps": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "over_budget": 0,
+      "wrong": 0
+    },
+    "once": {
+      "formulas": 93898,
+      "max_steps": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 2
+      },
+      "over_budget": 0,
+      "wrong": 0
+    },
+    "refresh": {
+      "formulas": 93898,
+      "max_steps": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3
+      },
+      "over_budget": 0,
+      "wrong": 0
+    }
+  },
+  "explanation": "The one-shot Rytter activation reconstruction is semantically correct and stays within the stated schedule. The literal refresh-every-iteration reading is retained as a destructive control and violates the schedule. A later proof-certificate audit is still required for the universal theorem.",
+  "literal_refresh_counterexample_leaf_counts": [
+    "16",
+    "32",
+    "64",
+    "128",
+    "256"
+  ],
+  "one_shot_budget_violations": [],
+  "paper_eprint_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "primary_mode": "once",
+  "result": "CONSTRUCTION_CORROBORATED",
+  "right_deep_chains": {
+    "naive": {
+      "128": {
+        "budget": 9,
+        "correct": true,
+        "nodes": 255,
+        "steps": 127
+      },
+      "16": {
+        "budget": 6,
+        "correct": true,
+        "nodes": 31,
+        "steps": 15
+      },
+      "256": {
+        "budget": 10,
+        "correct": true,
+        "nodes": 511,
+        "steps": 255
+      },
+      "32": {
+        "budget": 7,
+        "correct": true,
+        "nodes": 63,
+        "steps": 31
+      },
+      "64": {
+        "budget": 8,
+        "correct": true,
+        "nodes": 127,
+        "steps": 63
+      },
+      "8": {
+        "budget": 5,
+        "correct": true,
+        "nodes": 15,
+        "steps": 7
+      }
+    },
+    "once": {
+      "128": {
+        "budget": 9,
+        "correct": true,
+        "nodes": 255,
+        "steps": 7
+      },
+      "16": {
+        "budget": 6,
+        "correct": true,
+        "nodes": 31,
+        "steps": 4
+      },
+      "256": {
+        "budget": 10,
+        "correct": true,
+        "nodes": 511,
+        "steps": 8
+      },
+      "32": {
+        "budget": 7,
+        "correct": true,
+        "nodes": 63,
+        "steps": 5
+      },
+      "64": {
+        "budget": 8,
+        "correct": true,
+        "nodes": 127,
+        "steps": 6
+      },
+      "8": {
+        "budget": 5,
+        "correct": true,
+        "nodes": 15,
+        "steps": 3
+      }
+    },
+    "refresh": {
+      "128": {
+        "budget": 9,
+        "correct": true,
+        "nodes": 255,
+        "steps": 64
+      },
+      "16": {
+        "budget": 6,
+        "correct": true,
+        "nodes": 31,
+        "steps": 8
+      },
+      "256": {
+        "budget": 10,
+        "correct": true,
+        "nodes": 511,
+        "steps": 128
+      },
+      "32": {
+        "budget": 7,
+        "correct": true,
+        "nodes": 63,
+        "steps": 16
+      },
+      "64": {
+        "budget": 8,
+        "correct": true,
+        "nodes": 127,
+        "steps": 32
+      },
+      "8": {
+        "budget": 5,
+        "correct": true,
+        "nodes": 15,
+        "steps": 4
+      }
+    }
+  },
+  "theorem_verdict": "BLOCKED"
+}

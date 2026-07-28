@@ -1,0 +1,156 @@
+{
+  "LMAX": 14,
+  "results": {
+    "balanced_counting_a^n_b^n": {
+      "edge_alloc_n8_n16": [
+        216,
+        816
+      ],
+      "edge_alloc_polynomial_degree": 2,
+      "item_realizability_checks": 12058616,
+      "items_mismatched_vs_CKY": 0,
+      "linear": true,
+      "max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "max_realised_edges_by_n": {
+        "1": 0,
+        "10": 141,
+        "11": 173,
+        "12": 208,
+        "13": 246,
+        "14": 288,
+        "2": 4,
+        "3": 10,
+        "4": 20,
+        "5": 32,
+        "6": 48,
+        "7": 66,
+        "8": 88,
+        "9": 112
+      },
+      "preterminals": [
+        "A",
+        "B"
+      ],
+      "strings_enumerated": 32766,
+      "strings_mismatched_vs_CKY": 0,
+      "strings_where_I1_differs_from_Istar": 0,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "dyck1_unambiguous_NONLINEAR_control": {
+      "edge_alloc_n8_n16": [
+        1176,
+        9520
+      ],
+      "edge_alloc_polynomial_degree": 3,
+      "item_realizability_checks": 18087924,
+      "items_mismatched_vs_CKY": 0,
+      "linear": false,
+      "max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "13": 3,
+        "14": 3,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "max_realised_edges_by_n": {
+        "1": 0,
+        "10": 248,
+        "11": 318,
+        "12": 399,
+        "13": 492,
+        "14": 602,
+        "2": 6,
+        "3": 16,
+        "4": 31,
+        "5": 51,
+        "6": 75,
+        "7": 105,
+        "8": 145,
+        "9": 192
+      },
+      "preterminals": [
+        "Lb",
+        "Rb"
+      ],
+      "strings_enumerated": 32766,
+      "strings_mismatched_vs_CKY": 0,
+      "strings_where_I1_differs_from_Istar": 12864,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "palindrome_w_wR": {
+      "edge_alloc_n8_n16": [
+        432,
+        1632
+      ],
+      "edge_alloc_polynomial_degree": 2,
+      "item_realizability_checks": 15073270,
+      "items_mismatched_vs_CKY": 0,
+      "linear": true,
+      "max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "max_realised_edges_by_n": {
+        "1": 0,
+        "10": 245,
+        "11": 317,
+        "12": 399,
+        "13": 497,
+        "14": 606,
+        "2": 4,
+        "3": 12,
+        "4": 24,
+        "5": 41,
+        "6": 65,
+        "7": 96,
+        "8": 136,
+        "9": 186
+      },
+      "preterminals": [
+        "A",
+        "B"
+      ],
+      "strings_enumerated": 32766,
+      "strings_mismatched_vs_CKY": 0,
+      "strings_where_I1_differs_from_Istar": 0,
+      "strings_with_multiple_parse_trees": 0
+    }
+  },
+  "wall_seconds": 220.5
+}

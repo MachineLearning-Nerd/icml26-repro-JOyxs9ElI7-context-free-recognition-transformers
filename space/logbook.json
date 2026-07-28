@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Context-free Recognition with Transformers",
+  "emoji": "🎯",
+  "space_id": "DineshAI/JOyxs9ElI7",
+  "paper": "arXiv:2601.01754",
+  "tags": ["icml2026-repro", "paper-JOyxs9ElI7"],
+  "updated_at": "2026-07-28T05:52:05+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Current verification",
+    "file": "pages/index.md",
+    "children": [
+      {"slug": "current-claim-1", "title": "Current C1 — Theorem 3.1", "file": "pages/current-claim-1/page.md", "children": []},
+      {"slug": "current-claim-2", "title": "Current C2 — Theorem 4.1", "file": "pages/current-claim-2/page.md", "children": []},
+      {"slug": "current-claim-3", "title": "Current C3 — Theorem 4.2", "file": "pages/current-claim-3/page.md", "children": []},
+      {"slug": "current-claim-4", "title": "Current C4 — Lemma 4.1", "file": "pages/current-claim-4/page.md", "children": []},
+      {"slug": "current-claim-5", "title": "Current C5 — Corollary 4.1", "file": "pages/current-claim-5/page.md", "children": []},
+      {"slug": "current-claim-6", "title": "Current C6 — Table 1", "file": "pages/current-claim-6/page.md", "children": []},
+      {"slug": "current-method", "title": "Current method and environment", "file": "pages/current-method/page.md", "children": []},
+      {"slug": "current-controls", "title": "Current negative controls", "file": "pages/current-controls/page.md", "children": []},
+      {"slug": "current-limitations", "title": "Current limitations", "file": "pages/current-limitations/page.md", "children": []},
+      {"slug": "visibility-matrix", "title": "Evaluator visibility matrix", "file": "pages/visibility-matrix/page.md", "children": []},
+      {"slug": "claim-verification", "title": "Historical rejected baseline", "file": "pages/claim-verification/page.md", "children": []},
+      {"slug": "independent-tests", "title": "Historical rejected baseline", "file": "pages/independent-tests/page.md", "children": []},
+      {"slug": "methods", "title": "Historical rejected baseline", "file": "pages/methods/page.md", "children": []},
+      {"slug": "negative-controls", "title": "Historical rejected baseline", "file": "pages/negative-controls/page.md", "children": []},
+      {"slug": "conclusion", "title": "Historical rejected baseline", "file": "pages/conclusion/page.md", "children": []}
+    ]
+  },
+  "agent_view_tokens": 5200,
+  "revision": "20260728055205"
+}

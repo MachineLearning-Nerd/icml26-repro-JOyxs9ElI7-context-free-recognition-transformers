@@ -1,0 +1,752 @@
+{
+  "C1": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "cnf": {
+        "centroid_recurrence": "s_(r+1) <= ceil(s_r/2)+1; at most two recursive levels per round",
+        "derived_depth": "2*ceil(log2(2n))+O(1)",
+        "gap_inequality_checks": 8128,
+        "max_symbolic_audit_span": 128,
+        "proof_principle": "strong induction on span for items and outer-minus-inner span for slashed items",
+        "schema_cases": {
+          "item_gap": "m = inner + outer_slashed with both terms in [1,m-1]",
+          "item_split": "m = left + right with 1 <= left,right < m",
+          "item_terminal": "measure 1, grammar terminal lookup",
+          "slashed_gap": "strict nested gaps partition outer-minus-inner measure",
+          "slashed_split": "the distinguished inner subtree lies in exactly one child",
+          "slashed_terminal_context": "measure 1, one terminal sibling"
+        },
+        "split_inequality_checks": 8128
+      }
+    },
+    "confidence": "MEDIUM",
+    "obligations": [
+      "CNF strong induction",
+      "centroid recurrence",
+      "degree-6 schema",
+      "equality attention"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C2": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "propagators": {
+        "associativity_checks": 64,
+        "audited_chain_lengths": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "maximum_chain": 1024,
+        "pointer_doubling_checks": 18440,
+        "propagator_functions": {
+          "F": [
+            false,
+            false
+          ],
+          "ID": [
+            false,
+            true
+          ],
+          "NEG": [
+            true,
+            false
+          ],
+          "T": [
+            true,
+            true
+          ]
+        },
+        "refresh_reset_control_reach": 2,
+        "reverse_composition_control_mismatches": 6,
+        "rounds_for_maximum_chain": 10,
+        "semantic_composition_checks": 32
+      }
+    },
+    "confidence": "MEDIUM",
+    "obligations": [
+      "Chytil et al. (1991) O(log n) marking and unique-path premises",
+      "degree-3 edge/intermediary schema",
+      "logarithmic reachability transformer"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C3": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "linearity": {
+        "all_allowed_rules_have_I0_sibling": true,
+        "allocated_edge_schema": "item \u00d7 fixed grammar rule \u00d7 left/right orientation",
+        "allowed_cnf_child_types": [
+          [
+            "P",
+            "P"
+          ],
+          [
+            "P",
+            "N"
+          ],
+          [
+            "N",
+            "P"
+          ]
+        ],
+        "consequence": "every dependency edge is present in E1, hence I1 = I*",
+        "derived_padding_degree": 2,
+        "nonlinear_control_child_types": [
+          [
+            "N",
+            "N"
+          ]
+        ],
+        "nonlinear_control_has_I0_sibling": false
+      }
+    },
+    "confidence": "HIGH",
+    "obligations": [
+      "linear CNF rule has an I0 sibling",
+      "I1=I*",
+      "degree-2 edge schema"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C4": {
+    "certificates": {
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "propagators": {
+        "associativity_checks": 64,
+        "audited_chain_lengths": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "maximum_chain": 1024,
+        "pointer_doubling_checks": 18440,
+        "propagator_functions": {
+          "F": [
+            false,
+            false
+          ],
+          "ID": [
+            false,
+            true
+          ],
+          "NEG": [
+            true,
+            false
+          ],
+          "T": [
+            true,
+            true
+          ]
+        },
+        "refresh_reset_control_reach": 2,
+        "reverse_composition_control_mismatches": 6,
+        "rounds_for_maximum_chain": 10,
+        "semantic_composition_checks": 32
+      }
+    },
+    "confidence": "MEDIUM",
+    "deviation": "Uses a one-shot activation latch. The paper-literal refresh reading is value-correct but not logarithmic on right-deep chains.",
+    "obligations": [
+      "one-shot dependency forest",
+      "associative propagators",
+      "pointer doubling",
+      "equality attention"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C5": {
+    "certificates": {
+      "attention": {
+        "paper_normalization_audit": "The printed denominator gives self-dot 2, not the stated 1. Dividing by sqrt(2) repairs the normalization; both forms have the same unique hard-attention argmax.",
+        "rows": {
+          "normalized": {
+            "minimum_winner_margin": 7.247757949357947e-12,
+            "queries": 513,
+            "self_dot": 1.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          },
+          "paper_literal": {
+            "minimum_winner_margin": 1.4495293854110969e-11,
+            "queries": 513,
+            "self_dot": 2.0,
+            "wrong_argmax": 0,
+            "wrong_value_copies": 0
+          }
+        },
+        "shifted_query_control_mismatches": 513
+      },
+      "postfix": {
+        "argument_invariant": "previous is unary/right operand; preceding occurrence at equal depth is binary left operand",
+        "node_position_bijection": "each postfix token creates exactly one expression-tree node",
+        "padding_symbols": 0,
+        "token_stack_deltas": {
+          "&": -1,
+          "F": 1,
+          "T": 1,
+          "|": -1,
+          "~": 0
+        },
+        "well_formed_invariant": "every nonempty prefix has depth >= 1 and final depth = 1",
+        "wrong_negation_delta_control_final_depth": 0
+      },
+      "propagators": {
+        "associativity_checks": 64,
+        "audited_chain_lengths": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "maximum_chain": 1024,
+        "pointer_doubling_checks": 18440,
+        "propagator_functions": {
+          "F": [
+            false,
+            false
+          ],
+          "ID": [
+            false,
+            true
+          ],
+          "NEG": [
+            true,
+            false
+          ],
+          "T": [
+            true,
+            true
+          ]
+        },
+        "refresh_reset_control_reach": 2,
+        "reverse_composition_control_mismatches": 6,
+        "rounds_for_maximum_chain": 10,
+        "semantic_composition_checks": 32
+      }
+    },
+    "confidence": "MEDIUM",
+    "obligations": [
+      "C-RASP postfix invariants",
+      "node-position bijection",
+      "Claim 4 pebble certificate"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "C6": {
+    "certificates": {
+      "allocations": {
+        "depth_composition": {
+          "general": "one O(log n) centroid loop",
+          "linear_unambiguous": "one marking pass \u00d7 O(log n) tree reachability",
+          "log_exponents": {
+            "general": 1,
+            "linear_unambiguous": 1,
+            "unambiguous": 2
+          },
+          "unambiguous": "O(log n) outer marking \u00d7 O(log n) tree reachability"
+        },
+        "exact_degrees": {
+          "general_gap_configurations": 6,
+          "items": 2,
+          "linear_edges_and_items": 2,
+          "unambiguous_edges_and_items": 3
+        },
+        "n": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative_control_slashed_without_gap_guess_degree": 4,
+        "sequences": {
+          "general": [
+            0,
+            0,
+            0,
+            500,
+            3000,
+            10625,
+            28875,
+            66500,
+            136500,
+            257250,
+            453750,
+            759000,
+            1215500
+          ],
+          "items": [
+            0,
+            5,
+            15,
+            30,
+            50,
+            75,
+            105,
+            140,
+            180,
+            225,
+            275,
+            330,
+            390
+          ],
+          "linear_unambiguous": [
+            0,
+            19,
+            57,
+            114,
+            190,
+            285,
+            399,
+            532,
+            684,
+            855,
+            1045,
+            1254,
+            1482
+          ],
+          "unambiguous": [
+            0,
+            5,
+            29,
+            86,
+            190,
+            355,
+            595,
+            924,
+            1356,
+            1905,
+            2585,
+            3410,
+            4394
+          ]
+        }
+      },
+      "linearity": {
+        "all_allowed_rules_have_I0_sibling": true,
+        "allocated_edge_schema": "item \u00d7 fixed grammar rule \u00d7 left/right orientation",
+        "allowed_cnf_child_types": [
+          [
+            "P",
+            "P"
+          ],
+          [
+            "P",
+            "N"
+          ],
+          [
+            "N",
+            "P"
+          ]
+        ],
+        "consequence": "every dependency edge is present in E1, hence I1 = I*",
+        "derived_padding_degree": 2,
+        "nonlinear_control_child_types": [
+          [
+            "N",
+            "N"
+          ]
+        ],
+        "nonlinear_control_has_I0_sibling": false
+      }
+    },
+    "confidence": "HIGH",
+    "obligations": [
+      "independently generated class schemas",
+      "exact finite differences",
+      "depth composition"
+    ],
+    "verdict": "VERIFIED"
+  },
+  "external_primary_premises": {
+    "chytil_1991": {
+      "doi": "10.1016/0304-3975(91)90199-C",
+      "title": "On the parallel recognition of unambiguous context-free languages",
+      "used_for": "unique paths and O(log n) outer marking rounds"
+    },
+    "rytter_1985": {
+      "title": "The Complexity of Two-Way Pushdown Automata and Recursive Programs",
+      "used_for": "parallel tree contraction / pebbling"
+    }
+  },
+  "global_gate": "PASS",
+  "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3"
+}

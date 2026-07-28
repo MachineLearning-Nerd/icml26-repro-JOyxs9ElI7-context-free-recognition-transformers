@@ -1,0 +1,41 @@
+{
+  "LMAX": 9,
+  "argument_formula_mismatches": 0,
+  "argument_predicate_evaluations": 1615760,
+  "bfvp_formulas_decided": 38962,
+  "bfvp_wrong": 0,
+  "ceil_log2V_plus1_by_length": {
+    "1": 2,
+    "2": 2,
+    "3": 3,
+    "4": 3,
+    "5": 4,
+    "6": 4,
+    "7": 4,
+    "8": 4,
+    "9": 5
+  },
+  "control_dindex_shift2_mismatched_formulas": 38944,
+  "control_neg_counted_in_depth_mismatched_formulas": 23936,
+  "control_wf_missing_guard_false_accepts": 299480,
+  "formulas_with_position_node_mismatch": 0,
+  "max_iterations_by_length": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "9": 2
+  },
+  "padding_symbols_used": 0,
+  "pebble_iterations_exceeding_ceil_log2V_plus1": 0,
+  "total_strings_enumerated": 2441405,
+  "wall_seconds": 8.1,
+  "wellformed_formulas": 38962,
+  "wellformed_mismatch_examples": [],
+  "wellformed_predicate_agreements": 2441405,
+  "wellformed_predicate_mismatches": 0
+}

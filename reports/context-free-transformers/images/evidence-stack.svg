@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence stack from source statement to evaluator page</title>
+  <desc id="desc">Five linked layers show pinned source contracts, executable construction interpreters, independent oracles and controls, symbolic certificates, and evaluator-visible pages.</desc>
+  <rect width="1120" height="560" rx="28" fill="#f1f5f9"/>
+  <text x="64" y="70" fill="#0f172a" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="700">A claim is only as strong as its weakest visible layer</text>
+  <text x="64" y="108" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="19">Every layer is linked from the canonical Space entrypoint</text>
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+    <rect x="55" y="195" width="185" height="150" rx="18" fill="#312e81"/>
+    <text x="148" y="240" fill="#e0e7ff" font-size="20" font-weight="700">Pinned claim</text>
+    <text x="148" y="275" fill="#c7d2fe" font-size="16">quantifiers</text><text x="148" y="300" fill="#c7d2fe" font-size="16">assumptions</text><text x="148" y="325" fill="#c7d2fe" font-size="16">source hash</text>
+    <rect x="260" y="195" width="185" height="150" rx="18" fill="#0369a1"/>
+    <text x="353" y="240" fill="#e0f2fe" font-size="20" font-weight="700">Construction</text>
+    <text x="353" y="275" fill="#bae6fd" font-size="16">items / edges</text><text x="353" y="300" fill="#bae6fd" font-size="16">C-RASP</text><text x="353" y="325" fill="#bae6fd" font-size="16">residual slots</text>
+    <rect x="465" y="195" width="185" height="150" rx="18" fill="#047857"/>
+    <text x="558" y="240" fill="#d1fae5" font-size="20" font-weight="700">Falsifiers</text>
+    <text x="558" y="275" fill="#a7f3d0" font-size="16">independent oracle</text><text x="558" y="300" fill="#a7f3d0" font-size="16">negative control</text><text x="558" y="325" fill="#a7f3d0" font-size="16">nonzero exit</text>
+    <rect x="670" y="195" width="185" height="150" rx="18" fill="#b45309"/>
+    <text x="763" y="240" fill="#ffedd5" font-size="20" font-weight="700">Universal lift</text>
+    <text x="763" y="275" fill="#fed7aa" font-size="16">exact algebra</text><text x="763" y="300" fill="#fed7aa" font-size="16">induction cases</text><text x="763" y="325" fill="#fed7aa" font-size="16">pointer doubling</text>
+    <rect x="875" y="195" width="185" height="150" rx="18" fill="#be123c"/>
+    <text x="968" y="240" fill="#ffe4e6" font-size="20" font-weight="700">Visible artifact</text>
+    <text x="968" y="275" fill="#fecdd3" font-size="16">inline numbers</text><text x="968" y="300" fill="#fecdd3" font-size="16">raw downloads</text><text x="968" y="325" fill="#fecdd3" font-size="16">limitations</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none">
+    <path d="M240 270h20"/><path d="M445 270h20"/><path d="M650 270h20"/><path d="M855 270h20"/>
+  </g>
+  <rect x="210" y="400" width="700" height="72" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="560" y="430" fill="#0f172a" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" text-anchor="middle">Fixed command · locked uv environment · CPU/runtime · Git SHA · no hidden dashboard state</text>
+  <text x="560" y="456" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="16" text-anchor="middle">Blind traversal opens 13 files from README and finds all six claims</text>
+</svg>

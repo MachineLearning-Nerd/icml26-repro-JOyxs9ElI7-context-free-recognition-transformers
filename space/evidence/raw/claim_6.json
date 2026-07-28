@@ -1,0 +1,545 @@
+{
+  "rows": {
+    "balanced_counting": {
+      "LMAX": 14,
+      "allocated_padding_at_n16": {
+        "general_thm31": 2985472,
+        "linear_unambiguous_thm42": 1360,
+        "unambiguous_thm41": 4624
+      },
+      "allocated_padding_exact_degree": {
+        "general_thm31": 6,
+        "linear_unambiguous_thm42": 2,
+        "unambiguous_thm41": 3
+      },
+      "allocated_padding_sequences_n0_n10": {
+        "general_thm31": [
+          0,
+          0,
+          0,
+          256,
+          1536,
+          5440,
+          14784,
+          34048,
+          69888,
+          131712,
+          232320
+        ],
+        "linear_unambiguous_thm42": [
+          0,
+          10,
+          30,
+          60,
+          100,
+          150,
+          210,
+          280,
+          360,
+          450,
+          550
+        ],
+        "unambiguous_thm41": [
+          0,
+          4,
+          18,
+          48,
+          100,
+          180,
+          294,
+          448,
+          648,
+          900,
+          1210
+        ]
+      },
+      "alphabet": "ab",
+      "applicable_theorem": "Thm 4.2 (ULCFL)",
+      "binary_rules": 3,
+      "linear": true,
+      "max_parse_trees_per_string": 1,
+      "measured_max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "measured_max_realised_edges_by_n": {
+        "1": 0,
+        "10": 141,
+        "11": 173,
+        "12": 208,
+        "13": 246,
+        "14": 288,
+        "2": 4,
+        "3": 10,
+        "4": 20,
+        "5": 32,
+        "6": 48,
+        "7": 66,
+        "8": 88,
+        "9": 112
+      },
+      "nonterminals": 4,
+      "reduction_factor_general_over_applicable": 2195.2,
+      "strings_enumerated": 32766,
+      "strings_in_language": 7,
+      "strings_where_I1_differs_from_Istar": 0,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "bfvp_infix": {
+      "LMAX": 6,
+      "allocated_padding_at_n16": {
+        "general_thm31": 16000264,
+        "linear_unambiguous_thm42": 2040,
+        "unambiguous_thm41": 6392
+      },
+      "allocated_padding_exact_degree": {
+        "general_thm31": 6,
+        "linear_unambiguous_thm42": 2,
+        "unambiguous_thm41": 3
+      },
+      "allocated_padding_sequences_n0_n10": {
+        "general_thm31": [
+          0,
+          0,
+          0,
+          1372,
+          8232,
+          29155,
+          79233,
+          182476,
+          374556,
+          705894,
+          1245090
+        ],
+        "linear_unambiguous_thm42": [
+          0,
+          15,
+          45,
+          90,
+          150,
+          225,
+          315,
+          420,
+          540,
+          675,
+          825
+        ],
+        "unambiguous_thm41": [
+          0,
+          7,
+          29,
+          74,
+          150,
+          265,
+          427,
+          644,
+          924,
+          1275,
+          1705
+        ]
+      },
+      "alphabet": "tf&|()",
+      "applicable_theorem": "Thm 4.1 (UCFL)",
+      "binary_rules": 4,
+      "linear": false,
+      "max_parse_trees_per_string": 1,
+      "measured_max_outer_iterations_by_n": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      },
+      "measured_max_realised_edges_by_n": {
+        "1": 0,
+        "2": 3,
+        "3": 8,
+        "4": 15,
+        "5": 25,
+        "6": 38
+      },
+      "nonterminals": 7,
+      "reduction_factor_general_over_applicable": 2503.2,
+      "strings_enumerated": 55986,
+      "strings_in_language": 10,
+      "strings_where_I1_differs_from_Istar": 0,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "bfvp_postfix": {
+      "LMAX": 9,
+      "allocated_padding_at_n16": {
+        "general_thm31": 2985472,
+        "linear_unambiguous_thm42": 1360,
+        "unambiguous_thm41": 4624
+      },
+      "allocated_padding_exact_degree": {
+        "general_thm31": 6,
+        "linear_unambiguous_thm42": 2,
+        "unambiguous_thm41": 3
+      },
+      "allocated_padding_sequences_n0_n10": {
+        "general_thm31": [
+          0,
+          0,
+          0,
+          256,
+          1536,
+          5440,
+          14784,
+          34048,
+          69888,
+          131712,
+          232320
+        ],
+        "linear_unambiguous_thm42": [
+          0,
+          10,
+          30,
+          60,
+          100,
+          150,
+          210,
+          280,
+          360,
+          450,
+          550
+        ],
+        "unambiguous_thm41": [
+          0,
+          4,
+          18,
+          48,
+          100,
+          180,
+          294,
+          448,
+          648,
+          900,
+          1210
+        ]
+      },
+      "alphabet": "tf&|",
+      "applicable_theorem": "Thm 4.1 (UCFL)",
+      "binary_rules": 3,
+      "linear": false,
+      "max_parse_trees_per_string": 1,
+      "measured_max_outer_iterations_by_n": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "measured_max_realised_edges_by_n": {
+        "1": 0,
+        "2": 2,
+        "3": 6,
+        "4": 12,
+        "5": 24,
+        "6": 40,
+        "7": 61,
+        "8": 86,
+        "9": 116
+      },
+      "nonterminals": 4,
+      "reduction_factor_general_over_applicable": 645.6,
+      "strings_enumerated": 349524,
+      "strings_in_language": 7882,
+      "strings_where_I1_differs_from_Istar": 26432,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "dyck_1": {
+      "LMAX": 12,
+      "allocated_padding_at_n16": {
+        "general_thm31": 10075968,
+        "linear_unambiguous_thm42": 2720,
+        "unambiguous_thm41": 10336
+      },
+      "allocated_padding_exact_degree": {
+        "general_thm31": 6,
+        "linear_unambiguous_thm42": 2,
+        "unambiguous_thm41": 3
+      },
+      "allocated_padding_sequences_n0_n10": {
+        "general_thm31": [
+          0,
+          0,
+          0,
+          864,
+          5184,
+          18360,
+          49896,
+          114912,
+          235872,
+          444528,
+          784080
+        ],
+        "linear_unambiguous_thm42": [
+          0,
+          20,
+          60,
+          120,
+          200,
+          300,
+          420,
+          560,
+          720,
+          900,
+          1100
+        ],
+        "unambiguous_thm41": [
+          0,
+          6,
+          32,
+          92,
+          200,
+          370,
+          616,
+          952,
+          1392,
+          1950,
+          2640
+        ]
+      },
+      "alphabet": "()",
+      "applicable_theorem": "Thm 4.1 (UCFL)",
+      "binary_rules": 7,
+      "linear": false,
+      "max_parse_trees_per_string": 1,
+      "measured_max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "measured_max_realised_edges_by_n": {
+        "1": 0,
+        "10": 248,
+        "11": 318,
+        "12": 399,
+        "2": 6,
+        "3": 16,
+        "4": 31,
+        "5": 51,
+        "6": 75,
+        "7": 105,
+        "8": 145,
+        "9": 192
+      },
+      "nonterminals": 6,
+      "reduction_factor_general_over_applicable": 974.8,
+      "strings_enumerated": 8190,
+      "strings_in_language": 196,
+      "strings_where_I1_differs_from_Istar": 2454,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "dyck_2": {
+      "LMAX": 8,
+      "allocated_padding_at_n16": {
+        "general_thm31": 62088488,
+        "linear_unambiguous_thm42": 5304,
+        "unambiguous_thm41": 20536
+      },
+      "allocated_padding_exact_degree": {
+        "general_thm31": 6,
+        "linear_unambiguous_thm42": 2,
+        "unambiguous_thm41": 3
+      },
+      "allocated_padding_sequences_n0_n10": {
+        "general_thm31": [
+          0,
+          0,
+          0,
+          5324,
+          31944,
+          113135,
+          307461,
+          708092,
+          1453452,
+          2739198,
+          4831530
+        ],
+        "linear_unambiguous_thm42": [
+          0,
+          39,
+          117,
+          234,
+          390,
+          585,
+          819,
+          1092,
+          1404,
+          1755,
+          2145
+        ],
+        "unambiguous_thm41": [
+          0,
+          11,
+          61,
+          178,
+          390,
+          725,
+          1211,
+          1876,
+          2748,
+          3855,
+          5225
+        ]
+      },
+      "alphabet": "([)]",
+      "applicable_theorem": "Thm 4.1 (UCFL)",
+      "binary_rules": 14,
+      "linear": false,
+      "max_parse_trees_per_string": 1,
+      "measured_max_outer_iterations_by_n": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2
+      },
+      "measured_max_realised_edges_by_n": {
+        "1": 0,
+        "2": 6,
+        "3": 16,
+        "4": 31,
+        "5": 54,
+        "6": 85,
+        "7": 125,
+        "8": 182
+      },
+      "nonterminals": 11,
+      "reduction_factor_general_over_applicable": 3023.4,
+      "strings_enumerated": 87380,
+      "strings_in_language": 274,
+      "strings_where_I1_differs_from_Istar": 2760,
+      "strings_with_multiple_parse_trees": 0
+    },
+    "palindrome": {
+      "LMAX": 14,
+      "allocated_padding_at_n16": {
+        "general_thm31": 5831000,
+        "linear_unambiguous_thm42": 2312,
+        "unambiguous_thm41": 8840
+      },
+      "allocated_padding_exact_degree": {
+        "general_thm31": 6,
+        "linear_unambiguous_thm42": 2,
+        "unambiguous_thm41": 3
+      },
+      "allocated_padding_sequences_n0_n10": {
+        "general_thm31": [
+          0,
+          0,
+          0,
+          500,
+          3000,
+          10625,
+          28875,
+          66500,
+          136500,
+          257250,
+          453750
+        ],
+        "linear_unambiguous_thm42": [
+          0,
+          17,
+          51,
+          102,
+          170,
+          255,
+          357,
+          476,
+          612,
+          765,
+          935
+        ],
+        "unambiguous_thm41": [
+          0,
+          5,
+          27,
+          78,
+          170,
+          315,
+          525,
+          812,
+          1188,
+          1665,
+          2255
+        ]
+      },
+      "alphabet": "ab",
+      "applicable_theorem": "Thm 4.2 (ULCFL)",
+      "binary_rules": 6,
+      "linear": true,
+      "max_parse_trees_per_string": 1,
+      "measured_max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "measured_max_realised_edges_by_n": {
+        "1": 0,
+        "10": 245,
+        "11": 317,
+        "12": 399,
+        "13": 497,
+        "14": 606,
+        "2": 4,
+        "3": 12,
+        "4": 24,
+        "5": 41,
+        "6": 65,
+        "7": 96,
+        "8": 136,
+        "9": 186
+      },
+      "nonterminals": 5,
+      "reduction_factor_general_over_applicable": 2522.1,
+      "strings_enumerated": 32766,
+      "strings_in_language": 254,
+      "strings_where_I1_differs_from_Istar": 0,
+      "strings_with_multiple_parse_trees": 0
+    }
+  },
+  "wall_seconds": 398.3
+}

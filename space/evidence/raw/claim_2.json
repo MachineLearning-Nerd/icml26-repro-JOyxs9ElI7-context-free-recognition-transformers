@@ -1,0 +1,71 @@
+{
+  "LMAX": 12,
+  "LPATH": 10,
+  "results": {
+    "ambiguous_control": {
+      "graphs_with_a_cycle": 0,
+      "item_realizability_checks": 2195448,
+      "items_mismatched_vs_CKY": 0,
+      "max_directed_paths_between_any_item_pair": 14,
+      "max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 2,
+        "11": 2,
+        "12": 3,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "max_parse_trees_per_string": 42,
+      "padding_alloc_n_edges_degree": 3,
+      "padding_alloc_n_items_degree": 2,
+      "padding_alloc_total_degree": 3,
+      "padding_alloc_total_n8_n16": [
+        816,
+        5984
+      ],
+      "strings_enumerated": 8190,
+      "strings_mismatched_vs_CKY": 0,
+      "strings_path_checked": 2046,
+      "strings_with_multiple_parse_trees": 108
+    },
+    "unambiguous_dyck1": {
+      "graphs_with_a_cycle": 0,
+      "item_realizability_checks": 3293172,
+      "items_mismatched_vs_CKY": 0,
+      "max_directed_paths_between_any_item_pair": 1,
+      "max_outer_iterations_by_n": {
+        "1": 0,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
+      },
+      "max_parse_trees_per_string": 1,
+      "padding_alloc_n_edges_degree": 3,
+      "padding_alloc_n_items_degree": 2,
+      "padding_alloc_total_degree": 3,
+      "padding_alloc_total_n8_n16": [
+        1392,
+        10336
+      ],
+      "strings_enumerated": 8190,
+      "strings_mismatched_vs_CKY": 0,
+      "strings_path_checked": 2046,
+      "strings_with_multiple_parse_trees": 0
+    }
+  },
+  "wall_seconds": 122.5
+}

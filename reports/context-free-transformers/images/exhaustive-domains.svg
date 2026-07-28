@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">Complete finite domains used by the construction checks</title>
+  <desc id="desc">Claim five dominates the complete enumerations with 2.44 million strings; other claims range from 9,840 strings to 98,298 grammar strings and 93,898 formulas.</desc>
+  <rect width="1120" height="620" rx="28" fill="#ffffff"/>
+  <text x="64" y="70" fill="#111827" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="700">Finite sweeps are complete inside their declared horizons</text>
+  <text x="64" y="108" fill="#6b7280" font-family="Inter,Arial,sans-serif" font-size="19">They corroborate semantics; symbolic certificates discharge the universal lift</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="64" y="190" fill="#374151" font-size="18">C1 · all ternary strings ≤ 8</text>
+    <rect x="355" y="162" width="95" height="38" rx="8" fill="#8b5cf6"/><text x="465" y="188" fill="#111827" font-size="18" font-weight="700">9,840</text>
+    <text x="64" y="260" fill="#374151" font-size="18">C2 · two binary grammars ≤ 12</text>
+    <rect x="355" y="232" width="130" height="38" rx="8" fill="#6366f1"/><text x="500" y="258" fill="#111827" font-size="18" font-weight="700">16,380</text>
+    <text x="64" y="330" fill="#374151" font-size="18">C3 · three binary grammars ≤ 14</text>
+    <rect x="355" y="302" width="280" height="38" rx="8" fill="#3b82f6"/><text x="650" y="328" fill="#111827" font-size="18" font-weight="700">98,298</text>
+    <text x="64" y="400" fill="#374151" font-size="18">C4 · every formula ≤ 6 leaves</text>
+    <rect x="355" y="372" width="273" height="38" rx="8" fill="#06b6d4"/><text x="643" y="398" fill="#111827" font-size="18" font-weight="700">93,898</text>
+    <text x="64" y="470" fill="#374151" font-size="18">C5 · all five-symbol strings ≤ 9</text>
+    <rect x="355" y="442" width="650" height="38" rx="8" fill="#10b981"/><text x="1020" y="468" fill="#111827" font-size="18" font-weight="700">2,441,405</text>
+  </g>
+  <text x="64" y="555" fill="#4b5563" font-family="Inter,Arial,sans-serif" font-size="18">Across primary domains: zero semantic mismatches and zero claimed-schedule violations.</text>
+  <text x="64" y="585" fill="#9ca3af" font-family="Inter,Arial,sans-serif" font-size="15">Counts are not pooled statistical samples; each bar is an exhaustive discrete domain.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Claim coverage before and after the cumulative reconstruction</title>
+  <desc id="desc">The judged baseline had five toy claims and one inconclusive claim. The candidate has six internally verified claims, pending external evaluation.</desc>
+  <rect width="1120" height="560" rx="28" fill="#0b1220"/>
+  <text x="64" y="74" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="700">From accounting proxies to constructive evidence</text>
+  <text x="64" y="112" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="19">Live score remains 5/12; candidate verdicts are forecasts pending the judge</text>
+  <text x="64" y="175" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="600">Judged head · 36b4fa0</text>
+  <text x="640" y="175" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="600">Candidate evidence · 7fdf84f+</text>
+  <g font-family="Inter,Arial,sans-serif" font-size="18">
+    <rect x="64" y="207" width="430" height="48" rx="9" fill="#f59e0b"/><text x="84" y="238" fill="#111827">C1 · TOY</text>
+    <rect x="64" y="267" width="430" height="48" rx="9" fill="#f59e0b"/><text x="84" y="298" fill="#111827">C2 · TOY</text>
+    <rect x="64" y="327" width="430" height="48" rx="9" fill="#f59e0b"/><text x="84" y="358" fill="#111827">C3 · TOY</text>
+    <rect x="64" y="387" width="430" height="48" rx="9" fill="#f59e0b"/><text x="84" y="418" fill="#111827">C4 · TOY</text>
+    <rect x="64" y="447" width="205" height="48" rx="9" fill="#f59e0b"/><text x="84" y="478" fill="#111827">C5 · TOY</text>
+    <rect x="281" y="447" width="213" height="48" rx="9" fill="#64748b"/><text x="301" y="478" fill="#f8fafc">C6 · INCONCLUSIVE</text>
+    <rect x="640" y="207" width="416" height="48" rx="9" fill="#22c55e"/><text x="660" y="238" fill="#052e16">C1 · VERIFIED · medium</text>
+    <rect x="640" y="267" width="416" height="48" rx="9" fill="#22c55e"/><text x="660" y="298" fill="#052e16">C2 · VERIFIED · medium</text>
+    <rect x="640" y="327" width="416" height="48" rx="9" fill="#16a34a"/><text x="660" y="358" fill="#f0fdf4">C3 · VERIFIED · high</text>
+    <rect x="640" y="387" width="416" height="48" rx="9" fill="#22c55e"/><text x="660" y="418" fill="#052e16">C4 · VERIFIED · medium</text>
+    <rect x="640" y="447" width="200" height="48" rx="9" fill="#22c55e"/><text x="660" y="478" fill="#052e16">C5 · VERIFIED</text>
+    <rect x="852" y="447" width="204" height="48" rx="9" fill="#16a34a"/><text x="872" y="478" fill="#f0fdf4">C6 · VERIFIED</text>
+  </g>
+  <path d="M535 350h65" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M586 333l18 17-18 17" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

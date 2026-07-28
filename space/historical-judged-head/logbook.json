@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Context-free Recognition with Transformers",
+  "emoji": "🎯",
+  "space_id": "DineshAI/JOyxs9ElI7",
+  "paper": "arXiv:2601.01754",
+  "tags": [
+    "icml2026-repro",
+    "paper-JOyxs9ElI7"
+  ],
+  "updated_at": "2026-07-27T13:27:38+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - Context-free Recognition with Transformers",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "claim-verification",
+        "title": "Claim verification",
+        "file": "pages/claim-verification/page.md",
+        "children": []
+      },
+      {
+        "slug": "independent-tests",
+        "title": "Independent tests",
+        "file": "pages/independent-tests/page.md",
+        "children": []
+      },
+      {
+        "slug": "methods",
+        "title": "Methods",
+        "file": "pages/methods/page.md",
+        "children": []
+      },
+      {
+        "slug": "negative-controls",
+        "title": "Negative controls",
+        "file": "pages/negative-controls/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 711,
+  "revision": "1785158858252016876"
+}
