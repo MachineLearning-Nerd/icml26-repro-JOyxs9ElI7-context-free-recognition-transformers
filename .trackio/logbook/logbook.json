@@ -1,41 +1,48 @@
 {
   "schema_version": 1,
-  "title": "Repro - Context-free Recognition with Transformers",
-  "emoji": "🎯",
+  "title": "Repro - Context-Free Recognition with Transformers",
+  "emoji": "🧩",
   "space_id": null,
   "paper": "arXiv:2601.01754",
   "tags": [
     "icml2026-repro",
-    "paper-JOyxs9ElI7"
+    "paper-JOyxs9ElI7",
+    "scoped-audit"
   ],
-  "updated_at": "2026-07-27T13:19:22+00:00",
+  "updated_at": "2026-08-13T00:00:00+05:30",
   "root": {
     "slug": "index",
-    "title": "Repro - Context-free Recognition with Transformers",
+    "title": "Repro - Context-Free Recognition with Transformers",
     "file": "pages/index.md",
     "children": [
       {
-        "slug": "claim-verification",
-        "title": "Claim verification",
-        "file": "pages/claim-verification/page.md",
+        "slug": "overview",
+        "title": "Overview",
+        "file": "pages/overview/page.md",
         "children": []
       },
       {
-        "slug": "independent-tests",
-        "title": "Independent tests",
-        "file": "pages/independent-tests/page.md",
+        "slug": "claims",
+        "title": "Claim map",
+        "file": "pages/claims/page.md",
         "children": []
       },
       {
         "slug": "methods",
-        "title": "Methods",
+        "title": "Methods and boundaries",
         "file": "pages/methods/page.md",
         "children": []
       },
       {
-        "slug": "negative-controls",
-        "title": "Negative controls",
-        "file": "pages/negative-controls/page.md",
+        "slug": "evidence",
+        "title": "Evidence and controls",
+        "file": "pages/evidence/page.md",
+        "children": []
+      },
+      {
+        "slug": "branches",
+        "title": "Branch map",
+        "file": "pages/branches/page.md",
         "children": []
       },
       {
@@ -46,6 +53,6 @@
       }
     ]
   },
-  "agent_view_tokens": 711,
-  "revision": "1785158362150226988"
+  "agent_view_tokens": 900,
+  "revision": "context-free-audit-2026-08-13"
 }

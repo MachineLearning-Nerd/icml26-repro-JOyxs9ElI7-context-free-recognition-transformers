@@ -1,20 +1,20 @@
-# STATUS — JOyxs9ElI7 Context-free Recognition with Transformers
+# Audit status
 
-- Owner: `root`; state: `publication_queued`; last updated: 2026-07-27.
-- Pinned paper: arXiv `2601.01754`; e-print SHA-256
-  `693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3`.
-- Contract: six anchored claims, all matched to the rendered paper before the
-  claim was reserved.
-- Source availability: paper TeX/proofs and an experimental description are
-  available in the e-print; no implementation is released for the theorem
-  constructions.
-- Completed: `python repro/src/verify.py` passes all six claims and four
-  independent unit tests pass. The Trackio logbook has source, methods,
-  claim-verification, negative-control, and conclusion pages with the required
-  discovery tags.
-- Published source bundle: https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers
-  at commit `a5c1344`; canonical backlog entry was atomically added.
-- Next action: shared drain creates `DineshAI/JOyxs9ElI7`; verify the public
-  Space, required tags, commit SHA, and artifact bucket before moving to
-  `under_verdict`. The result remains explicitly scoped to source-audited
-  finite construction evidence, not a universal proof.
+- Overall: **INCONCLUSIVE**
+- Scoped construction audits: **6/6 pass**
+- Paper claims independently machine-verified: **0/6**
+- Paper: [Context-Free Recognition with Transformers](https://arxiv.org/abs/2601.01754), v3
+- Authors: Selim Jerad, Anej Svete, Sophie Hao, Ryan Cotterell, William Merrill
+- Canonical branch: main
+- Evidence: outputs/claim_ledger.json, outputs/raw_claims.json, and space/evidence/raw/
+
+The audit covers source-directed resource identities, finite construction
+witnesses, independent oracles, negative controls, and a conditional
+universal resource certificate. It does not establish every universally
+quantified transformer-semantic statement or reproduce neural training and
+the paper's empirical benchmark suite.
+
+The former repository name was
+icml26-repro-JOyxs9ElI7-context-free-recognition-transformers. The canonical
+renamed repository is
+MachineLearning-Nerd/icml26-context-free-recognition-transformers.

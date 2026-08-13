@@ -1,70 +1,103 @@
-# Context-free Recognition with Transformers — claim-by-claim reproduction
+# ICML 2026 — Context-Free Recognition with Transformers
 
-[![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/blob/master/notebooks/context_free_transformers_tutorial.py)
+This repository contains a source-directed, CPU-only audit of the paper
+[Context-Free Recognition with Transformers](https://arxiv.org/abs/2601.01754)
+(arXiv v3).
 
-This CPU-only campaign tests all six theoretical claims anchored to
-arXiv:2601.01754. The latest live judge score is **6/12** at Space revision
-`b22c03d7342ec67bcfa83a8b020d125fa047ce94`: every claim received toy credit,
-and the judge specifically found the primary Claim 6 check vacuous. The
-cumulative replacement executes the item, dependency-graph, C-RASP, and
-residual-slot hard-attention constructions. The surgical follow-up replaces
-that C6 self-comparison with a universal resource proof kernel.
+**Status:** 6/6 scoped construction audits pass. **0/6 paper claims are
+independently machine-verified, so the overall status is INCONCLUSIVE.**
 
-Assessment: **six internal VERIFIED verdicts**, pending the live judge.
-Conservative projected range after the surgical update: **6–7/12**;
-best-supported possible score: **7/12, forecast only**. Claims 1–5 still lack
-a complete machine-checked proof of their universal transformer semantics, so
-more finite sweeps are not forecast to improve them.
+The distinction matters: the audit checks the paper's resource accounting,
+finite construction witnesses, independent semantic oracles, negative
+controls, and a conditional resource certificate. It does not train a
+transformer or fully formalize every universally quantified AHAT semantic
+lemma.
 
-| Paper claim | Paper result | Observed evidence | Assessment |
+## Paper
+
+- Title: Context-Free Recognition with Transformers
+- Authors: Selim Jerad, Anej Svete, Sophie Hao, Ryan Cotterell, William Merrill
+- [arXiv abstract and citation](https://arxiv.org/abs/2601.01754)
+- [arXiv v3 HTML](https://arxiv.org/html/2601.01754)
+- [OpenReview: JOyxs9ElI7](https://openreview.net/forum?id=JOyxs9ElI7)
+- Pinned source SHA-256:
+  693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3
+
+The paper studies whether looped, padded, averaging hard-attention
+transformers can recognize context-free languages. It gives resource
+tradeoffs for general, unambiguous, and linear unambiguous CFLs, plus
+constructive Boolean-pebbling and postfix-formula results, and reports
+empirical comparisons with fixed-depth transformers.
+
+## Claim-to-evidence map
+
+| Claim | What the audit runs | Scoped result | Not independently established |
 | --- | --- | --- | --- |
-| C1 general CFL | `O(log n)` loops, `O(n^6)` padding | 9,840 strings, zero construction/oracle mismatches; exact degree 6 | VERIFIED · MEDIUM |
-| C2 unambiguous CFL | `O(log^2 n)`, `O(n^3)` | max path multiplicity 1; ambiguous control 14; exact degree 3 | VERIFIED · MEDIUM |
-| C3 linear unambiguous | `O(log n)`, `O(n^2)` | `I1=I*` on two grammars; control 12,864 failures; degree 2 | VERIFIED · HIGH |
-| C4 Boolean pebbling | `O(log n)` | 8 loops on 511 nodes vs budget 10; 18,440 symbolic pointer checks | VERIFIED · MEDIUM |
-| C5 BFVP | zero padding, `O(log n)` | 2,441,405 strings; zero predicate/tree/truth/padding failures | VERIFIED · MEDIUM |
-| C6 Table 1 | degrees 6/3/2, depth exponents 1/2/1 | universal theorem-row synthesis; three mutations rejected; independent finite differences retained | VERIFIED · MEDIUM |
+| C1 — Theorem 3.1, general CFLs | Symbolic O(n^6) resource accounting, CFG positives/negatives, recurrence and attention-address controls. | SCOPED_PASS | Full universal AHAT semantics; the result remains conditional on the paper's semantic lemmas and idealized model. |
+| C2 — Theorem 4.1, unambiguous CFLs | Unambiguous CFG witnesses, path-multiplicity/order controls, and O(n^3) marking/resource accounting. | SCOPED_PASS | Universal unique-path marking semantics and complete transformer formalization. |
+| C3 — Theorem 4.2, linear unambiguous CFLs | Linear grammar witnesses, a non-linear control, constant-outdegree accounting, and I1=I* certificate. | SCOPED_PASS | Full universal transformer semantics beyond the named source premise. |
+| C4 — Lemma 4.1, Boolean pebbling | Exhaustive finite formula shapes through 51 leaves, independent stack/tree oracles, and sequential/refresh controls. | SCOPED_PASS | A complete machine-checked proof for every idealized transformer execution. |
+| C5 — Corollary 4.1, BFVP | Complete finite postfix sweep through length 9, independent parser/tree/truth oracles, and malformed-input controls. | SCOPED_PASS | Universal all-formula and all-execution theorem verification. |
+| C6 — Table 1 tradeoff | Resource rows synthesized from C1–C3, with three deliberate mutations rejected. | SCOPED_PASS | The certificate is conditional on the semantic premises of Theorems 3.1, 4.1, and 4.2. |
 
-Substitutions and scope: no GPU or neural training was used. The paper supplies
-a constructive idealized hard-attention model, so the reproduction uses exact
-discrete residual-slot semantics plus instantiated four-dimensional attention
-addresses. Finite sweeps are complete only through their declared horizons;
-the universal lift is a separate symbolic certificate. The one-shot activation
-latch repairs a paper-literal refresh schedule that is not logarithmic on
-right-deep trees.
+The machine-readable interpretation is in
+outputs/claim_ledger.json. Raw checked-in evidence remains in
+outputs/verdict.json and space/evidence/raw/.
 
-Read the [illustrated technical report](reports/context-free-transformers/report.md),
-the [release and visibility audit](reports/context-free-transformers/release-report.md),
-the [surgical Claim 6 report](reports/context-free-transformers/c6-surgical-report.md),
-or the [self-contained marimo tutorial](notebooks/context_free_transformers_tutorial.py).
-The exact evaluator-facing publication is mirrored under
-[`space/`](space/README.md), including its payload manifest.
+## How to reproduce
 
-## Experiment log
+The pinned environment is standard-library-only Python managed by uv:
 
-The exact command on every formal node was:
-`uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v`.
-
-| Branch / experiment | Purpose or change | Exact run command | Assessment / outcome | Compute |
-| --- | --- | --- | --- | --- |
-| `master` | Publication surface | Not run as an experiment (publication surface) | Reader-facing report and notebook | none |
-| [`orx/frozen-judged-baseline-with-locked-uv-environmen`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/frozen-judged-baseline-with-locked-uv-environmen) | Frozen judged baseline + uv lock | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Regression PASS; scientifically still toy | local CPU, 5s |
-| [`orx/claim-4-paper-literal-activation-audit`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claim-4-paper-literal-activation-audit) | Literal refresh interpretation | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Schedule counterexample found | local CPU, 5s |
-| [`orx/claim-4-rytter-one-shot-activation-audit`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claim-4-rytter-one-shot-activation-audit) | One-shot dependency latch | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | 93,898 formulas; zero failures | local CPU, 5s |
-| [`orx/claims-1-3-paper-algorithm-transformer-reconstru`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claims-1-3-paper-algorithm-transformer-reconstru) | Algorithms 1–2 and marking | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | C1–C3 construction contracts passed | local CPU, 3m20s |
-| [`orx/claims-5-6-exact-construction-and-tradeoff-audit`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claims-5-6-exact-construction-and-tradeoff-audit) | Exact C-RASP and generated Table 1 | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | C5–C6 contracts passed | HF cpu-upgrade, 13m24s |
-| [`orx/symbolic-theorem-certificates-and-evaluator-visi`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/symbolic-theorem-certificates-and-evaluator-visi) | Universal proof certificates | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Six VERIFIED internal verdicts; 15 tests pass | HF cpu-upgrade, 13m04s |
-| [`orx/evaluator-visible-release-candidate-and-blind-au`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/evaluator-visible-release-candidate-and-blind-au) | Canonical pages, blind audit, release gates | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Cumulative candidate and protected-history gate | HF cpu-upgrade |
-| [`orx/space-root-verifier-portability-hotfix`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/space-root-verifier-portability-hotfix) | Execute the audit from an exact Space download | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | Dual-root resolver and portability regressions | HF cpu-upgrade |
-| [`orx/non-vacuous-c6-and-universal-proof-kernel`](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/non-vacuous-c6-and-universal-proof-kernel) | Replace the primary C6 self-comparison with universal theorem-row synthesis | `uv sync --frozen && uv run --frozen python repro/src/verify.py && uv run --frozen python -m unittest discover -s repro/tests -v` | 3/3 proof mutations rejected; 20/20 tests pass | HF cpu-upgrade, 12m08s |
-
-## Run locally
-
-```bash
+~~~bash
 uv sync --frozen
 uv run --frozen python repro/src/verify.py
 uv run --frozen python -m unittest discover -s repro/tests -v
-marimo edit notebooks/context_free_transformers_tutorial.py
-```
+uv run --frozen python repro/src/verify_ledger.py
+uv run --frozen python repro/src/finalize_gate.py
+~~~
 
-The paper source audit is in [`docs/SOURCE_AUDIT.md`](docs/SOURCE_AUDIT.md).
+The historical full formal run took about 12 minutes on a CPU worker. The
+checked-in raw evidence and gate are already available for inspection.
+
+The illustrated report, source audit, release report, and self-contained
+tutorial are retained under reports/, docs/, and notebooks/. They describe
+the construction details, assumptions, controls, and known deviations.
+
+## Branches
+
+The published repository uses main as its only canonical branch. The former
+master branch is renamed to main. The former orx branches were workflow
+branches, not separate paper results; their work was incorporated into the
+release surface and their roles are preserved in BRANCH_AUDIT.md before the
+legacy refs are removed:
+
+- frozen judged baseline and locked environment
+- literal and one-shot Claim 4 schedule audits
+- Claims 1–3 algorithm reconstruction
+- Claims 5–6 exact construction and tradeoff audit
+- symbolic theorem certificates
+- evaluator-visible release and blind audit
+- Space-root portability hotfix
+- non-vacuous Claim 6 resource proof kernel
+
+## Citation
+
+~~~bibtex
+@misc{jerad2026contextfree,
+  title         = {Context-Free Recognition with Transformers},
+  author        = {Selim Jerad and Anej Svete and Sophie Hao and Ryan Cotterell and William Merrill},
+  year          = {2026},
+  eprint        = {2601.01754},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
+}
+~~~
+
+## Thanks
+
+Thank you to Selim Jerad, Anej Svete, Sophie Hao, Ryan Cotterell, and William
+Merrill for making the paper and its detailed constructions available. Their
+source-level presentation makes it possible to audit the resource identities,
+finite witnesses, controls, and assumptions. This repository is an
+independent educational audit, not an official implementation or endorsement
+by the authors.

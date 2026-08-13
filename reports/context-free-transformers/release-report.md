@@ -8,22 +8,20 @@
 
 | Claim | Current points | Possible points | Confidence | Evidence status | Basis and remaining risk |
 | --- | ---: | ---: | --- | --- | --- |
-| C1 | 1 | 2 | LOW | TOY / internal VERIFIED | Faithful Algorithms 1–2 and resource algebra pass, but the live judge correctly notes that the universal transformer-semantic theorem is not machine-formalized. |
-| C2 | 1 | 2 | LOW | TOY / internal VERIFIED | Dependency marking, ambiguity controls, and cubic resources pass; the universal claim remains conditional on the cited unique-path premise. |
-| C3 | 1 | 2 | LOW | TOY / internal VERIFIED | Linearity collapse and quadratic resources pass on faithful constructions; the complete universal semantics are not formalized. |
-| C4 | 1 | 2 | LOW | TOY / internal VERIFIED | Residual-slot execution and destructive schedule controls pass, but the one-shot latch is an explicit construction repair and the universal lemma is not fully formalized. |
-| C5 | 1 | 2 | LOW | TOY / internal VERIFIED | Exact postfix C-RASP predicates and zero padding pass on the declared complete finite domain; the theorem remains universally quantified. |
-| C6 | 1 | 2 | MEDIUM | VERIFIED internally | The former self-comparison is removed. Universal theorem-row synthesis derives 6/1, 3/2, and 2/1, and rejects three exponent/dependency mutations; risk is that the evaluator may still view the result as conditional bookkeeping. |
+| C1 | 1 | 2 | LOW | SCOPED_PASS | Faithful Algorithms 1–2 and resource algebra pass, but the universal transformer-semantic theorem is not machine-formalized. |
+| C2 | 1 | 2 | LOW | SCOPED_PASS | Dependency marking, ambiguity controls, and cubic resources pass; the universal claim remains conditional on the cited unique-path premise. |
+| C3 | 1 | 2 | LOW | SCOPED_PASS | Linearity collapse and quadratic resources pass on faithful constructions; the complete universal semantics are not formalized. |
+| C4 | 1 | 2 | LOW | SCOPED_PASS | Residual-slot execution and destructive schedule controls pass, but the one-shot latch is an explicit construction repair and the universal lemma is not fully formalized. |
+| C5 | 1 | 2 | LOW | SCOPED_PASS | Exact postfix C-RASP predicates and zero padding pass on the declared complete finite domain; the theorem remains universally quantified. |
+| C6 | 1 | 2 | MEDIUM | SCOPED_PASS | Universal theorem-row synthesis derives 6/1, 3/2, and 2/1 and rejects three mutations; the certificate remains conditional bookkeeping. |
 
-Current total score is `6/12`. The conservative projected total is `6–7/12`;
-the best-supported possible total is `7/12`, strictly as a forecast. This
-surgical round directly changes only Claim 6. Claims 1–5 remain judge-rated
-TOY and scientifically unresolved at proof level; further finite scaling is
-not expected to change that.
+This audit is scoped to construction and resource evidence. Claims 1–5 remain
+unresolved at proof level, and the conditional C6 certificate is not a complete
+independent proof of its theorem dependencies.
 
 ## Winning experiment and cumulative gate
 
-- Branch: `orx/non-vacuous-c6-and-universal-proof-kernel`
+- Branch: main (integrated from historical workflow branches)
 - Scientific Git SHA: `4e8e52723ce03699a792543fd40d170b8d9842fa`
 - Evidence-finalization Git SHA: `966dc74e832dd3334613c0247a76ee60693e1def`
 - Formal run: `7115eacb-2a14-40f9-a916-92039c063443`
@@ -85,5 +83,5 @@ through the Hugging Face Hub commit API to the existing Space
 `DineshAI/JOyxs9ElI7` at revision
 `14a82ee5f03f531b5fd430fbed3e45febb08fdf5`. The exact revision was downloaded
 fresh; every hash and the Space-root canonical traversal passed. The published
-text, report, and verifier are mirrored to GitHub `master`. The live score
-remains `6/12` until the judge evaluates the new Space revision.
+text, report, and verifier are mirrored to the canonical GitHub main branch.
+The audit status is scoped and does not predict a judge score.

@@ -1,8 +1,10 @@
 {
-  "space_id": null,
-  "emoji": "🎯",
-  "created_at": "2026-07-27T13:18:49+00:00",
-  "last_page": "conclusion",
-  "paper": "arXiv:2601.01754",
-  "tags": ["icml2026-repro", "paper-JOyxs9ElI7"]
+  "paper_arxiv": "2601.01754",
+  "paper_orid": "JOyxs9ElI7",
+  "tags": [
+    "icml2026-repro",
+    "paper-JOyxs9ElI7",
+    "scoped-audit"
+  ],
+  "last_page": "conclusion"
 }

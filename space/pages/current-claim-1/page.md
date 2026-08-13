@@ -1,6 +1,6 @@
 # Claim 1 — Theorem 3.1
 
-**Verdict: VERIFIED. Confidence: MEDIUM.**
+**Scoped result: SCOPED_PASS. Paper claim: NOT INDEPENDENTLY VERIFIED.**
 
 ## Exact claim and assumptions
 

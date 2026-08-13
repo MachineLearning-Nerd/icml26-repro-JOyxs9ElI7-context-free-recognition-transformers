@@ -87,7 +87,7 @@ def discover_from_entrypoint() -> dict[str, object]:
         page = open_text(slug_to_file[slug])
         normalized_page = " ".join(page.lower().split())
         for required in (
-            "Verdict: VERIFIED",
+            "Scoped result: SCOPED_PASS",
             "Exact claim and assumptions",
             "raw JSON",
             "exits nonzero",
@@ -105,7 +105,7 @@ def discover_from_entrypoint() -> dict[str, object]:
         all(child["title"] == "Historical rejected baseline" for child in historical),
         "historical pages are not labeled exactly",
     )
-    require("Previous live judged score: 6/12" in index, "baseline score missing from entrypoint")
+    require("Overall status: INCONCLUSIVE" in index, "overall audit status missing from entrypoint")
     return {
         "start": "README.md",
         "opened_in_order": opened,

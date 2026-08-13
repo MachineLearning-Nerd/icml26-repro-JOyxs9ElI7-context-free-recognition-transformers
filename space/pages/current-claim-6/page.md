@@ -1,6 +1,6 @@
 # Claim 6 — Table 1 resource tradeoff
 
-**Verdict: VERIFIED. Confidence: HIGH.**
+**Scoped result: SCOPED_PASS. Paper claim: NOT INDEPENDENTLY VERIFIED.**
 
 ## Exact claim and assumptions
 

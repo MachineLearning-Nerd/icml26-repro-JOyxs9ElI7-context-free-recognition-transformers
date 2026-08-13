@@ -1,6 +1,6 @@
 # Reconstructing Context-free Recognition with Transformers
 
-![Claim coverage moved from toy proxies to six internally verified constructive checks](images/headline-coverage.svg)
+![Claim coverage moved from toy proxies to six scoped constructive checks](images/headline-coverage.svg)
 
 The paper asks a crisp theoretical question: can a looped transformer recognize
 every context-free language, and do grammar restrictions reduce the padding
@@ -10,9 +10,11 @@ This reproduction closes that gap with semantic interpreters for the paper's
 hard-attention slots, complete finite-domain checks, independent oracles,
 destructive controls, and a machine-checkable symbolic lift.
 
-The result is six internal `VERIFIED` verdicts: MEDIUM confidence for Claims
-1, 2, 4, and 5; HIGH for Claims 3 and 6. This is not a new judge result. The
-live score remains 5/12 until the published revision is evaluated.
+The result is six internal `SCOPED_PASS` verdicts: MEDIUM confidence for
+Claims 1, 2, 4, and 5; HIGH for Claims 3 and 6. These are not independent
+paper-level theorem proofs or a new judge result. The overall audit remains
+INCONCLUSIVE until the universal transformer semantics are independently
+formalized.
 
 ## What was implemented
 
@@ -134,19 +136,21 @@ mirrored into the candidate Space.
 
 | Claim | Verdict | Confidence | Remaining risk |
 | --- | --- | --- | --- |
-| C1 | VERIFIED | MEDIUM | semantic hard-attention interpreter, not trained weights |
-| C2 | VERIFIED | MEDIUM | inherits Chytil unique-path/round premises |
-| C3 | VERIFIED | HIGH | upper bound only |
-| C4 | VERIFIED | MEDIUM | one-shot latch repairs literal refresh wording |
-| C5 | VERIFIED | MEDIUM | idealized C-RASP/AHAT model |
-| C6 | VERIFIED | HIGH | conditional on its three theorem rows |
+| C1 | SCOPED_PASS | MEDIUM | semantic hard-attention interpreter, not trained weights; universal semantics remain conditional |
+| C2 | SCOPED_PASS | MEDIUM | inherits Chytil unique-path/round premises |
+| C3 | SCOPED_PASS | HIGH | upper-bound construction only |
+| C4 | SCOPED_PASS | MEDIUM | one-shot latch repairs literal refresh wording; idealized model |
+| C5 | SCOPED_PASS | MEDIUM | finite-domain C-RASP/AHAT audit, not a universal proof |
+| C6 | SCOPED_PASS | HIGH | conditional on its three theorem rows |
 
-Conservative projected judge range: **9–12/12**. Best-supported possible score:
-**12/12, as a forecast only**. The live score remains 5/12 until evaluation.
+No judge score is inferred from this audit. Historical workflow-branch roles
+are preserved in BRANCH_AUDIT.md; the public interface is the canonical main
+branch.
 
 Important lineage:
-[frozen baseline](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/frozen-judged-baseline-with-locked-uv-environmen),
-[one-shot pebble audit](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claim-4-rytter-one-shot-activation-audit),
-[Claims 1–3 reconstruction](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claims-1-3-paper-algorithm-transformer-reconstru),
-[Claims 5–6 reconstruction](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/claims-5-6-exact-construction-and-tradeoff-audit),
-and [symbolic certificates](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/tree/orx/symbolic-theorem-certificates-and-evaluator-visi).
+the historical workflow-branch roles are recorded in BRANCH_AUDIT.md, while
+the public interface is the canonical main branch. The roles form a sequence
+of focused decisions: frozen baseline → literal Claim 4 schedule audit →
+one-shot repair → evaluator milestone → Claims 1–3 algorithms → Claims 5–6
+constructions → symbolic certificates. The branches were integrated into
+main and are intentionally not part of the published branch surface.

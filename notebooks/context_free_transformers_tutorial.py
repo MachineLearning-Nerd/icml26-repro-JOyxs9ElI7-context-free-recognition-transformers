@@ -18,14 +18,14 @@ def _(mo):
     mo.md(r"""
     # Context-free recognition with looped transformers
 
-    ![Headline evidence](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/master/reports/context-free-transformers/images/headline-coverage.svg)
+    ![Headline evidence](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-context-free-recognition-transformers/main/reports/context-free-transformers/images/headline-coverage.svg)
 
     The paper gives constructive upper bounds for recognizing context-free
     languages. This notebook opens with the already-produced evidence; it
     never requires the expensive exhaustive sweeps to be rerun.
 
-    **Live judge score: 5/12. Candidate evidence: six internal VERIFIED
-    verdicts, pending external evaluation.**
+    **Audit status: six scoped construction passes, zero independently verified
+    paper claims, overall INCONCLUSIVE.**
     """)
     return
 
@@ -129,7 +129,7 @@ def _(mo):
     uv run --frozen python -m unittest discover -s repro/tests -v
     ```
 
-    The detailed [illustrated report](https://github.com/MachineLearning-Nerd/icml26-repro-JOyxs9ElI7-context-free-recognition-transformers/blob/master/reports/context-free-transformers/report.md)
+    The detailed [illustrated report](https://github.com/MachineLearning-Nerd/icml26-context-free-recognition-transformers/blob/main/reports/context-free-transformers/report.md)
     contains the implementation path, controls, compute, limitations, and
     claim-level assessment. Optional interaction here is bounded and is
     not formal evidence.

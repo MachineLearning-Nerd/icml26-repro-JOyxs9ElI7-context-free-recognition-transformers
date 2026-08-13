@@ -1,0 +1,98 @@
+{
+  "claims": [
+    {
+      "evidence": "Source-directed O(n^6) resource accounting, symbolic recurrence checks, finite CFG membership positives and negatives, and attention-address controls.",
+      "id": "C1",
+      "not_established": "The universal transformer-semantic construction is not fully machine-formalized; the result is conditional on the paper's named semantic lemmas and the idealized AHAT model.",
+      "paper_claim": "General context-free languages can be recognized by a looped averaging hard-attention transformer with logarithmic looping and the stated polynomial padding budget.",
+      "paper_claim_verified": false,
+      "paper_reference": "Theorem 3.1",
+      "raw_evidence": "general O(n^6) allocation identity; 24 positive and 24 negative CYK instances",
+      "scoped_audit_passed": true,
+      "source_artifact": "outputs/verdict.json",
+      "status": "SCOPED_PASS"
+    },
+    {
+      "evidence": "Unambiguous CFG witnesses, path-multiplicity and order controls, symbolic O(n^3) allocation checks, and marking-resource accounting.",
+      "id": "C2",
+      "not_established": "The universal recognition semantics remain conditional on the named unique-path marking premise and idealized transformer model.",
+      "paper_claim": "Unambiguous context-free languages admit the paper's reduced padding and increased looping resource tradeoff.",
+      "paper_claim_verified": false,
+      "paper_reference": "Theorem 4.1",
+      "raw_evidence": "O(n^3) edge/intermediary allocation; 144 unambiguous CFG positives plus order control",
+      "scoped_audit_passed": true,
+      "source_artifact": "outputs/verdict.json",
+      "status": "SCOPED_PASS"
+    },
+    {
+      "evidence": "Linear grammar witnesses, a non-linear control, constant-outdegree accounting, and symbolic I1=I* resource checks.",
+      "id": "C3",
+      "not_established": "The universal proposition and all transformer-semantic details are not independently machine-checked beyond the source-directed certificate.",
+      "paper_claim": "Linear unambiguous context-free languages admit the sharper linear-case resource tradeoff.",
+      "paper_claim_verified": false,
+      "paper_reference": "Theorem 4.2",
+      "raw_evidence": "O(n^2) linear allocation; 30 positives and 30 length controls",
+      "scoped_audit_passed": true,
+      "source_artifact": "outputs/verdict.json",
+      "status": "SCOPED_PASS"
+    },
+    {
+      "evidence": "Exhaustive finite formula-shape checks through 51 leaves, independent stack/tree oracles, pointer-doubling certificates, and destructive sequential/refresh controls.",
+      "id": "C4",
+      "not_established": "Finite formula coverage and symbolic obligations do not by themselves machine-check every universally quantified AHAT semantic statement.",
+      "paper_claim": "The paper's Boolean pebbling construction can be implemented with the stated logarithmic looping schedule.",
+      "paper_claim_verified": false,
+      "paper_reference": "Lemma 4.1",
+      "raw_evidence": "100 postfix formulas agree under independent tree/stack oracles; source logarithmic pebble schedule audited",
+      "scoped_audit_passed": true,
+      "source_artifact": "outputs/verdict.json",
+      "status": "SCOPED_PASS"
+    },
+    {
+      "evidence": "Complete finite postfix sweep through length 9, independent parser, tree, and truth oracles, plus three malformed-input controls.",
+      "id": "C5",
+      "not_established": "The finite-domain sweep does not constitute an independent proof for every formula or every idealized transformer execution.",
+      "paper_claim": "Well-formed postfix Boolean formulas are recognized with zero padding under the paper's construction, with malformed inputs rejected.",
+      "paper_claim_verified": false,
+      "paper_reference": "Corollary 4.1",
+      "raw_evidence": "postfix node count equals input token count for all witnesses; 4 malformed inputs rejected",
+      "scoped_audit_passed": true,
+      "source_artifact": "outputs/verdict.json",
+      "status": "SCOPED_PASS"
+    },
+    {
+      "evidence": "Universal resource-algebra certificate synthesizes the three rows from explicit theorem dependencies and rejects three mutations.",
+      "id": "C6",
+      "not_established": "The certificate is conditional on the semantic premises for the three theorem rows; it is not a complete independent proof of them.",
+      "paper_claim": "The three language classes have the paper's stated padding and looping exponent tradeoff.",
+      "paper_claim_verified": false,
+      "paper_reference": "Table 1 and Theorems 3.1, 4.1, 4.2",
+      "raw_evidence": "exact Table 1 exponent rows regenerated from C1--C3 accounting",
+      "scoped_audit_passed": true,
+      "source_artifact": "outputs/verdict.json",
+      "status": "SCOPED_PASS"
+    }
+  ],
+  "paper": {
+    "arxiv": "https://arxiv.org/abs/2601.01754",
+    "arxiv_version": "v3",
+    "authors": [
+      "Selim Jerad",
+      "Anej Svete",
+      "Sophie Hao",
+      "Ryan Cotterell",
+      "William Merrill"
+    ],
+    "openreview": "https://openreview.net/forum?id=JOyxs9ElI7",
+    "title": "Context-Free Recognition with Transformers"
+  },
+  "scope": "source-audited theorem statements plus finite construction witnesses; not a universal proof",
+  "source_sha256": "693a29298642b5adf2ec602881d0cfb9d76e1603a030b9d2e59a8437c29ca4e3",
+  "summary": {
+    "overall_status": "INCONCLUSIVE",
+    "paper_claims_total": 6,
+    "paper_claims_verified": 0,
+    "scoped_audits_passed": 6,
+    "scoped_audits_total": 6
+  }
+}

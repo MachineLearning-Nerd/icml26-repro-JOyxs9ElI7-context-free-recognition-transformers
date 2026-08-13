@@ -1,44 +1,32 @@
-# Current verification — six constructive theorem claims
+# Current audit — six scoped construction claims
 
-**Previous live judged score: 6/12 at revision
-`b22c03d7342ec67bcfa83a8b020d125fa047ce94`. Internal cumulative result: six
-VERIFIED claims, pending evaluator review. This is a forecast, not a new judge
-score.**
+**Overall status: INCONCLUSIVE**
 
-The central evidence is direct execution of the paper's item, dependency-graph,
-C-RASP, and residual-slot transformer constructions, followed by a
-machine-checkable symbolic certificate. Formal HF run
-`7115eacb-2a14-40f9-a916-92039c063443` used commit
-`4e8e52723ce03699a792543fd40d170b8d9842fa`, completed in 12m08s on
-`cpu-upgrade`, exposed 64 affinity CPUs, and deliberately used one sequential
-scientific process. All 20 fail-closed tests passed.
+- Scoped construction audits: 6/6 pass
+- Paper claims independently machine-verified: 0/6
+- Paper: [Context-Free Recognition with Transformers](https://arxiv.org/abs/2601.01754)
+- Authors: Selim Jerad, Anej Svete, Sophie Hao, Ryan Cotterell, William Merrill
+- Canonical repository branch: main
+
+The evidence executes source-directed item, dependency-graph, C-RASP, and
+residual-slot constructions, then checks finite domains, independent oracles,
+negative controls, and conditional symbolic resource certificates. A finite
+execution is not presented as a proof of a universal transformer theorem.
 
 ## Current claim pages
 
-| Claim | Current verdict | Confidence | Canonical page |
+| Claim | Scoped result | Paper-level result | Page |
 | --- | --- | --- | --- |
-| C1 — general CFL | VERIFIED | MEDIUM | [Theorem 3.1](#/current-claim-1) |
-| C2 — unambiguous CFL | VERIFIED | MEDIUM | [Theorem 4.1](#/current-claim-2) |
-| C3 — linear unambiguous CFL | VERIFIED | HIGH | [Theorem 4.2](#/current-claim-3) |
-| C4 — parallel Boolean pebbling | VERIFIED | MEDIUM | [Lemma 4.1](#/current-claim-4) |
-| C5 — zero-padding BFVP | VERIFIED | MEDIUM | [Corollary 4.1](#/current-claim-5) |
-| C6 — Table 1 tradeoff | VERIFIED | HIGH | [Table 1](#/current-claim-6) |
+| C1 — general CFL | SCOPED_PASS | NOT INDEPENDENTLY VERIFIED | [Theorem 3.1](#/current-claim-1) |
+| C2 — unambiguous CFL | SCOPED_PASS | NOT INDEPENDENTLY VERIFIED | [Theorem 4.1](#/current-claim-2) |
+| C3 — linear unambiguous CFL | SCOPED_PASS | NOT INDEPENDENTLY VERIFIED | [Theorem 4.2](#/current-claim-3) |
+| C4 — parallel Boolean pebbling | SCOPED_PASS | NOT INDEPENDENTLY VERIFIED | [Lemma 4.1](#/current-claim-4) |
+| C5 — zero-padding BFVP | SCOPED_PASS | NOT INDEPENDENTLY VERIFIED | [Corollary 4.1](#/current-claim-5) |
+| C6 — Table 1 tradeoff | SCOPED_PASS | NOT INDEPENDENTLY VERIFIED | [Table 1](#/current-claim-6) |
 
 Supporting pages: [method and environment](#/current-method),
 [controls](#/current-controls), [limitations](#/current-limitations), and the
 [evaluator visibility matrix](#/visibility-matrix).
 
-## What supersedes the judged baseline
-
-The current verifier is
-[`evidence/code/verify.py`](../evidence/code/verify.py), with construction
-runners, [`proof_certificates.py`](../evidence/code/proof_certificates.py),
-and the fail-closed
-[`theorem_proof_kernel.py`](../evidence/code/theorem_proof_kernel.py).
-It supersedes the finite CYK/accounting verifier at the judged head.
-
-The following preserved pages are labeled **Historical rejected baseline**.
-They are retained for provenance and are not the current verification:
-[claim verification](#/claim-verification),
-[independent tests](#/independent-tests), [methods](#/methods),
-[negative controls](#/negative-controls), and [conclusion](#/conclusion).
+Historical rejected-baseline pages remain available for provenance and are
+not the current verification.

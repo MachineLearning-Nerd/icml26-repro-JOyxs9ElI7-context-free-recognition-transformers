@@ -1,8 +1,22 @@
-# Methods
+# Methods and boundaries
 
+## Implemented
 
----
-<!-- trackio-cell
-{"type": "markdown", "id": "cell_c6e577912238", "created_at": "2026-07-27T13:19:20+00:00", "title": "Finite, source-directed protocol"}
--->
-The paper releases TeX proofs rather than a theorem implementation. This reproduction pins the e-print, regenerates its Section 3/4 allocation identities over n=4..64, and tests finite CFG/postfix witnesses against independent semantic oracles. Finite instances are evidence for construction fidelity, not a proof of the universal theorems.
+- Source-audited item and slashed-item resource identities
+- CFG and postfix finite-domain witnesses
+- Independent parser, stack, tree, and truth oracles
+- Hard-attention address and pointer-doubling controls
+- A universal resource-algebra certificate for the three Table 1 rows
+- Deliberate mutations that must be rejected
+
+## Not implemented
+
+- A complete machine-checked proof of every AHAT semantic lemma
+- Trained neural-transformer accuracy or optimization
+- A proof of lower bounds or resource optimality
+- A replacement for the paper's universal theorem quantifiers
+
+The one-shot activation latch is an explicit construction repair for a
+paper-literal refresh schedule that is value-correct but not logarithmic on
+right-deep trees. Both the repair and the destructive literal control remain
+documented in the evidence.

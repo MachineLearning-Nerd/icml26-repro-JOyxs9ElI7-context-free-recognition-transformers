@@ -1,6 +1,6 @@
 ---
-title: "Repro - Context-free Recognition with Transformers"
-emoji: 🎯
+title: "Repro - Context-Free Recognition with Transformers"
+emoji: 🧩
 colorFrom: yellow
 colorTo: red
 sdk: static
@@ -11,28 +11,32 @@ tags:
  - open-experiment
  - icml2026-repro
  - paper-JOyxs9ElI7
+ - scoped-audit
 ---
 
-# Context-free Recognition with Transformers — current verification
+# Context-Free Recognition with Transformers — scoped audit
 
-Current evaluator entrypoint: [pages/index.md](pages/index.md).
+Paper: [arXiv:2601.01754](https://arxiv.org/abs/2601.01754), v3.
 
-The current cumulative verifier reconstructs the paper's discrete
-hard-attention constructions, checks complete declared finite domains, and
-checks symbolic obligations for the universal quantifiers. The exact judged
-revision `36b4fa0b5c1292518f7fb0c6392191e4bc016a0c` is preserved; its pages are
-clearly labeled **Historical rejected baseline** in current navigation.
+Authors: Selim Jerad, Anej Svete, Sophie Hao, Ryan Cotterell, and William
+Merrill.
 
-No score increase is claimed here. The latest live judge score is 6/12 at
-revision `b22c03d7342ec67bcfa83a8b020d125fa047ce94`; only the live evaluator can
-change it.
+**Status: 6/6 scoped construction audits pass; 0/6 paper claims are
+independently machine-verified; overall INCONCLUSIVE.**
 
-From an exact downloaded Space revision, the quick visibility and integrity
-gate is executable with:
+The Space pages expose the source-directed resource accounting, finite
+construction witnesses, independent oracles, destructive controls, and
+conditional resource certificate. They do not train a neural transformer or
+fully formalize every universal idealized-transformer semantic lemma.
 
-```bash
+Start at [pages/index.md](pages/index.md). The quick integrity gate is:
+
+~~~bash
 python evidence/code/audit_candidate.py
-```
+~~~
 
-The longer cumulative scientific verifier is
-`python evidence/code/verify.py`; it has no third-party runtime dependency.
+The cumulative verifier is:
+
+~~~bash
+python evidence/code/verify.py
+~~~
